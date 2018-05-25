@@ -9,3 +9,169 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra_child
 Template: astra
 */
+/* ////////////////////////////////////////// -_-
+COlORS
+/////////////////////////////////////////////*/
+/* Green */ #c3c64b
+/* Grey */ #707274
+/* Yellow */ #f5bf3f
+/* Orange */ #ff6a3a
+/* Pale Green */ #adbaaa
+
+/* ////////////////////////////////////////// -_-
+TYPOGRAPHY
+/////////////////////////////////////////////*/
+
+#home_header_text h1 {
+  font-size:33px;
+}
+.entry-content h1, .bottom_text {
+  font-size:33px;
+  color:#ffffff;
+}
+
+.bottom_text {
+  text-align:center;
+}
+
+h2 {
+
+}
+
+/* ////////////////////////////////////////// -_-
+Buttons
+/////////////////////////////////////////////*/
+
+.button_onwhite {
+  color:#ffffff;
+  background:#adbaaa;
+}
+
+/* ////////////////////////////////////////// -_-
+HEADER
+/////////////////////////////////////////////*/
+
+.main-navigation ul > li {
+padding:0 15px;
+}
+
+.main-navigation ul > li:hover {
+color:#707274;
+}
+
+.main-navigation ul > li > a {
+  font-family: 'Raleway', sans-serif;
+  color:#707274;
+  text-transform:uppercase;
+  letter-spacing: .1em;
+  font-weight: 100;
+  position: relative;
+  text-decoration: none;
+  padding:0;
+  line-height:2.5em;
+}
+
+.main-navigation ul > li > a:hover {
+  color:#707274;
+}
+
+.main-navigation ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #707274;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.main-navigation ul > li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.main-navigation ul > li > a:focus {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.main-header-menu li:hover > a,
+.main-header-menu li:hover > .ast-menu-toggle,
+.main-header-menu .ast-masthead-custom-menu-items a:hover,
+.main-header-menu li.focus > a,
+.main-header-menu li.focus > .ast-menu-toggle,
+.main-header-menu .current-menu-item > a,
+.main-header-menu .current-menu-ancestor > a,
+.main-header-menu .current_page_item > a,
+.main-header-menu .current-menu-item > .ast-menu-toggle,
+.main-header-menu .current-menu-ancestor > .ast-menu-toggle,
+.main-header-menu .current_page_item > .ast-menu-toggle  {
+color:#707274;
+}
+
+/* ////////////////////////////////////////// -_-
+MAIN CONTENT
+/////////////////////////////////////////////*/
+
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  position: relative;
+  width: 23%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div.desc:hover {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gallery:hover .overlay {
+  opacity: .97;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: #f5bf3f;
+}
+
+/* ////////////////////////////////////////// -_-
+FOOTER
+/////////////////////////////////////////////*/
