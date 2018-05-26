@@ -24,3 +24,13 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+
+/**
+ * Adding Social Icon Sizes
+ */
+add_filter( 'storm_social_icons_size', create_function( '', 'return "normal";' ) );
+add_filter( 'storm_social_icons_size', create_function( '', 'return "large";' ) );
+add_filter( 'storm_social_icons_size', create_function( '', 'return "2x";' ) );
+add_filter( 'storm_social_icons_size', create_function( '', 'return "3x";' ) );
+add_filter( 'storm_social_icons_size', create_function( '', 'return "4x";' ) );

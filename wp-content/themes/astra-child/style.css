@@ -28,14 +28,11 @@ TYPOGRAPHY
 .entry-content h1, .bottom_text {
   font-size:33px;
   color:#ffffff;
+  margin-bottom:0;
 }
 
 .bottom_text {
   text-align:center;
-}
-
-h2 {
-
 }
 
 /* ////////////////////////////////////////// -_-
@@ -119,6 +116,16 @@ color:#707274;
 .main-header-menu .current-menu-ancestor > .ast-menu-toggle,
 .main-header-menu .current_page_item > .ast-menu-toggle  {
 color:#707274;
+}
+
+div#mobile_arrow {
+  width:85px;
+  margin:0 auto;
+}
+
+.big_white_line, .small_white_line {
+  width:50px;
+  margin:0 auto;
 }
 
 /* ////////////////////////////////////////// -_-
