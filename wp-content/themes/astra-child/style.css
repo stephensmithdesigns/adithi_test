@@ -187,3 +187,12 @@ div.desc:hover {
 /* ////////////////////////////////////////// -_-
 FOOTER
 /////////////////////////////////////////////*/
+
+
+li.social-icon a {
+  font-size:12px;
+}
+
+.ast-small-footer {
+  border:none;
+}

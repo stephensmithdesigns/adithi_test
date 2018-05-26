@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
-<title>Use my head, heart, and humor to tell your story.</title>
+<title>Portfolio</title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
 <link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="http://localhost:8888/adithi_test/feed/" />
@@ -41,7 +42,9 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 .main-header-bar-wrap::before {content: '921';}@media all and ( min-width: 921px ) {.main-header-bar-wrap::before {content: '';}}
 </style>
 <link rel='stylesheet' id='astra-google-fonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A400&#038;ver=1.3.3' type='text/css' media='all' />
-<link rel='stylesheet' id='fl-builder-layout-9-css'  href='http://localhost:8888/adithi_test/wp-content/uploads/bb-plugin/cache/9-layout.css?ver=c7ed05181aeaded6a937a9407e161d43' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-bxslider-css'  href='http://localhost:8888/adithi_test/wp-content/plugins/bb-plugin/css/jquery.bxslider.css?ver=2.1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=2.1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-38-css'  href='http://localhost:8888/adithi_test/wp-content/uploads/bb-plugin/cache/38-layout.css?ver=cb2f7cd8a3b284122e3444ca168943f6' type='text/css' media='all' />
 <link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='http://localhost:8888/adithi_test/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.6' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css?ver=1.3.9' type='text/css' media='all' />
 <!--[if IE 7]>
@@ -60,10 +63,10 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost:8888/adithi_test/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost:8888/adithi_test/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.9.6" />
-<link rel="canonical" href="http://localhost:8888/adithi_test/" />
-<link rel='shortlink' href='http://localhost:8888/adithi_test/' />
-<link rel="alternate" type="application/json+oembed" href="http://localhost:8888/adithi_test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8888%2Fadithi_test%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://localhost:8888/adithi_test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8888%2Fadithi_test%2F&#038;format=xml" />
+<link rel="canonical" href="http://localhost:8888/adithi_test/portfolio/" />
+<link rel='shortlink' href='http://localhost:8888/adithi_test/?p=38' />
+<link rel="alternate" type="application/json+oembed" href="http://localhost:8888/adithi_test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8888%2Fadithi_test%2Fportfolio%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://localhost:8888/adithi_test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8888%2Fadithi_test%2Fportfolio%2F&#038;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		<style type="text/css" media="print">#wpadminbar { display:none; }</style>
 <style type="text/css" media="screen">
@@ -76,7 +79,7 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 </style>
 </head>
 
-<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="home page-template-default page page-id-9 logged-in admin-bar no-customize-support wp-custom-logo fl-builder ast-page-builder-template ast-no-sidebar astra-1.3.3 ast-header-custom-item-inside ast-single-post">
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="page-template-default page page-id-38 logged-in admin-bar no-customize-support wp-custom-logo fl-builder ast-page-builder-template ast-no-sidebar astra-1.3.3 ast-header-custom-item-inside ast-single-post">
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
@@ -110,9 +113,9 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 	
 			
 		</div>
-		<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" id="site-navigation" class="ast-flex-grow-1" role="navigation" aria-label="Site Navigation"><div class="main-navigation"><ul id="primary-menu" class="main-header-menu ast-flex ast-justify-content-flex-end submenu-with-border"><li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-43"><a href="http://localhost:8888/adithi_test/">Home</a></li>
+		<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" id="site-navigation" class="ast-flex-grow-1" role="navigation" aria-label="Site Navigation"><div class="main-navigation"><ul id="primary-menu" class="main-header-menu ast-flex ast-justify-content-flex-end submenu-with-border"><li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-43"><a href="http://localhost:8888/adithi_test/">Home</a></li>
 <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://localhost:8888/adithi_test/about/">About</a></li>
-<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="http://localhost:8888/adithi_test/portfolio/">Portfolio</a></li>
+<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-38 current_page_item menu-item-45"><a href="http://localhost:8888/adithi_test/portfolio/">Portfolio</a></li>
 <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="http://localhost:8888/adithi_test/contact/">Contact</a></li>
 </ul></div></nav></div></div>			</div><!-- Main Header Container -->
 		</div><!-- ast-row -->
@@ -139,7 +142,7 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 					
 					
 
-<article itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-9" class="post-9 page type-page status-publish ast-article-single">
+<article itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-38" class="post-38 page type-page status-publish ast-article-single">
 
 	
 	<header class="entry-header ast-header-without-markup">
@@ -150,233 +153,79 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 	<div class="entry-content clear" itemprop="text">
 
 		
-		<div class="fl-builder-content fl-builder-content-9 fl-builder-content-primary" data-post-id="9"><div class="fl-row fl-row-fixed-width fl-row-bg-photo fl-node-5b08083d50ae4 fl-row-full-height fl-row-align-bottom fl-visible-mobile" data-node="5b08083d50ae4">
+		<div class="fl-builder-content fl-builder-content-38 fl-builder-content-primary" data-post-id="38"><div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5b0988671e5b0" data-node="5b0988671e5b0">
 	<div class="fl-row-content-wrap">
 				<div class="fl-row-content fl-row-fixed-width fl-node-content">
 		
-<div class="fl-col-group fl-node-5b08083d56a84" data-node="5b08083d56a84">
-			<div class="fl-col fl-node-5b08083d56c14" data-node="5b08083d56c14">
+<div class="fl-col-group fl-node-5b098867203cb" data-node="5b098867203cb">
+			<div class="fl-col fl-node-5b098867204a9 fl-col-has-cols" data-node="5b098867204a9">
 	<div class="fl-col-content fl-node-content">
-	<div id="home_header_text" class="fl-module fl-module-rich-text fl-node-5b0817e5d5baf" data-node="5b0817e5d5baf">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<div id="imageBoxSlider-5b071383596da" class="img-box-slider md-align-center" data-speed="3000" data-effect="fade">
-<h1 style="text-align: center;">Hi, I'm <strong>Adithi Chandrashekar</strong> , and I use my head, heart, and humor to tell your story.</h1>
-</div>
-</div>
-	</div>
-</div>
-<div id="mobile_arrow" class="fl-module fl-module-photo fl-node-5b08180cc6204" data-node="5b08180cc6204">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-svg">
-				<img class="fl-photo-img wp-image-110 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/arrow-white.svg" alt="arrow-white" itemprop="image" height="" width="" title="arrow-white"  />
-					</div>
-	</div>
-	</div>
-</div>
-	</div>
-</div>
-	</div>
-		</div>
-	</div>
-</div>
-<div class="fl-row fl-row-fixed-width fl-row-bg-photo fl-node-5b079c5771351 fl-visible-desktop-medium" data-node="5b079c5771351">
-	<div class="fl-row-content-wrap">
-				<div class="fl-row-content fl-row-full-width fl-node-content">
-		
-<div class="fl-col-group fl-node-5b079c5773860" data-node="5b079c5773860">
-			<div class="fl-col fl-node-5b079dc1c495f" data-node="5b079dc1c495f">
+	
+<div class="fl-col-group fl-node-5b0989d14b0bb fl-col-group-nested" data-node="5b0989d14b0bb">
+			<div class="fl-col fl-node-5b0989d14b256 fl-col-small" data-node="5b0989d14b256">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-rich-text fl-node-5b079dc1c47f4" data-node="5b079dc1c47f4">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	</div>
-	</div>
-</div>
-	</div>
-</div>
-			<div class="fl-col fl-node-5b079c577393b fl-col-small" data-node="5b079c577393b">
-	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-photo fl-node-5b09378b34cbd fl-visible-desktop big_white_line" data-node="5b09378b34cbd">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-svg">
-				<img class="fl-photo-img wp-image-113 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/big_white_line.svg" alt="big_white_line" itemprop="image" height="" width="" title="big_white_line"  />
-					</div>
-	</div>
-	</div>
-</div>
-<div class="fl-module fl-module-photo fl-node-5b0937599b201 fl-visible-medium small_white_line" data-node="5b0937599b201">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-svg">
-				<img class="fl-photo-img wp-image-114 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/small_white_line.svg" alt="small_white_line" itemprop="image" height="" width="" title="small_white_line"  />
-					</div>
-	</div>
-	</div>
-</div>
-<div id="home_header_text" class="fl-module fl-module-rich-text fl-node-5b079d3bd08fd" data-node="5b079d3bd08fd">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<div id="imageBoxSlider-5b071383596da" class="img-box-slider md-align-center" data-speed="3000" data-effect="fade">
-<h1>Hi, I'm <strong>Adithi Chandrashekar</strong> , and I use my head, heart, and humor to tell your story.</h1>
-</div>
-</div>
-	</div>
-</div>
-<div class="fl-module fl-module-photo fl-node-5b093763d8730 fl-visible-medium small_white_line" data-node="5b093763d8730">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-svg">
-				<img class="fl-photo-img wp-image-114 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/small_white_line.svg" alt="small_white_line" itemprop="image" height="" width="" title="small_white_line"  />
-					</div>
-	</div>
-	</div>
-</div>
-<div class="fl-module fl-module-photo fl-node-5b09379ba4624 fl-visible-desktop big_white_line" data-node="5b09379ba4624">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-svg">
-				<img class="fl-photo-img wp-image-113 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/big_white_line.svg" alt="big_white_line" itemprop="image" height="" width="" title="big_white_line"  />
-					</div>
-	</div>
-	</div>
-</div>
-	</div>
-</div>
-	</div>
-		</div>
-	</div>
-</div>
-<div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5b07f85580884" data-node="5b07f85580884">
-	<div class="fl-row-content-wrap">
-				<div class="fl-row-content fl-row-fixed-width fl-node-content">
-		
-<div class="fl-col-group fl-node-5b07fe567074a" data-node="5b07fe567074a">
-			<div class="fl-col fl-node-5b07fe5670885 fl-col-has-cols" data-node="5b07fe5670885">
-	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-rich-text fl-node-5b07fe5670686" data-node="5b07fe5670686">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<h2 style="text-align: center;">In the past, I've had the pleasure to help narrate the stories of these clients.</h2>
-</div>
-	</div>
-</div>
-
-<div class="fl-col-group fl-node-5b080454de941 fl-col-group-nested" data-node="5b080454de941">
-			<div class="fl-col fl-node-5b080454dea7e fl-col-small" data-node="5b080454dea7e">
-	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-photo fl-node-5b08045a0099e" data-node="5b08045a0099e">
+	<div class="fl-module fl-module-photo fl-node-5b098b67c4e21" data-node="5b098b67c4e21">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-jpg">
-				<img class="fl-photo-img wp-image-100 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/chicken.jpg" alt="chicken" itemprop="image" height="202" width="543" title="chicken" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/chicken.jpg 543w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/chicken-300x112.jpg 300w" sizes="(max-width: 543px) 100vw, 543px" />
+				<img class="fl-photo-img wp-image-148 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/azteca.jpg" alt="azteca" itemprop="image" height="400" width="400" title="azteca" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/azteca.jpg 400w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/azteca-150x150.jpg 150w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/azteca-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
 					</div>
 	</div>
 	</div>
 </div>
-<div class="fl-module fl-module-rich-text fl-node-5b09381fb9b9c" data-node="5b09381fb9b9c">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<p style="text-align: center;">This is a description of the work that I did for this company. This just needs to be short and describe the work.</p>
-</div>
-	</div>
-</div>
-<div class="fl-module fl-module-button fl-node-5b0936ac49bec fl-animation fl-slide-left" data-node="5b0936ac49bec" data-animation-delay="0.0">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-button-wrap fl-button-width-auto fl-button-center">
-			<a href="" target="_self" class="fl-button" role="button">
-							<span class="fl-button-text">See Case Study</span>
-					</a>
-</div>
-	</div>
-</div>
-	</div>
-</div>
-			<div class="fl-col fl-node-5b080454dea83 fl-col-small" data-node="5b080454dea83">
-	<div class="fl-col-content fl-node-content">
-	<div id="azteca_logo" class="fl-module fl-module-photo fl-node-5b0804d670f7d" data-node="5b0804d670f7d">
+<div class="fl-module fl-module-photo fl-node-5b0994640b5d5" data-node="5b0994640b5d5">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-svg">
-				<img class="fl-photo-img wp-image-129 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/Azteca_big.svg" alt="Azteca_big" itemprop="image" height="" width="" title="Azteca_big"  />
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img class="fl-photo-img wp-image-152 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/nfte.jpg" alt="nfte" itemprop="image" height="400" width="400" title="nfte" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/nfte.jpg 400w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/nfte-150x150.jpg 150w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/nfte-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
 					</div>
 	</div>
 	</div>
 </div>
-<div class="fl-module fl-module-rich-text fl-node-5b0938268b901" data-node="5b0938268b901">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<p style="text-align: center;">This is a description of the work that I did for this company. This just needs to be short and describe the work.</p>
-</div>
 	</div>
 </div>
-<div class="fl-module fl-module-button fl-node-5b09371142f11 fl-animation fl-slide-left" data-node="5b09371142f11" data-animation-delay="0.0">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-button-wrap fl-button-width-auto fl-button-center">
-			<a href="" target="_self" class="fl-button" role="button">
-							<span class="fl-button-text">See Case Study</span>
-					</a>
-</div>
-	</div>
-</div>
-	</div>
-</div>
-			<div class="fl-col fl-node-5b080454dea86 fl-col-small" data-node="5b080454dea86">
+			<div class="fl-col fl-node-5b0989d14b25b fl-col-small" data-node="5b0989d14b25b">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-photo fl-node-5b0806027a86d" data-node="5b0806027a86d">
+	<div class="fl-module fl-module-photo fl-node-5b098bfd31be6" data-node="5b098bfd31be6">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-png">
-				<img class="fl-photo-img wp-image-95 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/pre-logo2.png" alt="pre-logo2" itemprop="image" height="854" width="976" title="pre-logo2" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/pre-logo2.png 976w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/pre-logo2-300x263.png 300w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/pre-logo2-768x672.png 768w" sizes="(max-width: 976px) 100vw, 976px" />
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<a href="http://localhost:8888/adithi_test/single_portfolio_page/" target="_self" itemprop="url">
+				<img class="fl-photo-img wp-image-155 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/superchix.jpg" alt="superchix" itemprop="image" height="400" width="400" title="superchix" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/superchix.jpg 400w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/superchix-150x150.jpg 150w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/superchix-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
+				</a>
 					</div>
 	</div>
 	</div>
 </div>
-<div class="fl-module fl-module-rich-text fl-node-5b093a1cf2d4e" data-node="5b093a1cf2d4e">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<p style="text-align: center;">This is a description of the work that I did for this company. This just needs to be short and describe the work.</p>
-</div>
-	</div>
-</div>
-<div class="fl-module fl-module-button fl-node-5b0937177fc07 fl-animation fl-slide-left" data-node="5b0937177fc07" data-animation-delay="0.0">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-button-wrap fl-button-width-auto fl-button-center">
-			<a href="" target="_self" class="fl-button" role="button">
-							<span class="fl-button-text">See Case Study</span>
-					</a>
-</div>
-	</div>
-</div>
-	</div>
-</div>
-			<div class="fl-col fl-node-5b080454dea88 fl-col-small" data-node="5b080454dea88">
-	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-photo fl-node-5b08062d86abb" data-node="5b08062d86abb">
+<div class="fl-module fl-module-photo fl-node-5b0994664f98f" data-node="5b0994664f98f">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-	<div class="fl-photo-content fl-photo-img-png">
-				<img class="fl-photo-img wp-image-98 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly.png" alt="potbelly" itemprop="image" height="300" width="583" title="potbelly" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly.png 583w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly-300x154.png 300w" sizes="(max-width: 583px) 100vw, 583px" />
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img class="fl-photo-img wp-image-153 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly.jpg" alt="potbelly" itemprop="image" height="400" width="400" title="potbelly" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly.jpg 400w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly-150x150.jpg 150w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/potbelly-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
 					</div>
 	</div>
 	</div>
 </div>
-<div class="fl-module fl-module-rich-text fl-node-5b093a251319d" data-node="5b093a251319d">
-	<div class="fl-module-content fl-node-content">
-		<div class="fl-rich-text">
-	<p style="text-align: center;">This is a description of the work that I did for this company. This just needs to be short and describe the work.</p>
-</div>
 	</div>
 </div>
-<div class="fl-module fl-module-button fl-node-5b09371d4284e fl-animation fl-slide-left" data-node="5b09371d4284e" data-animation-delay="0.0">
+			<div class="fl-col fl-node-5b0989d14b25f fl-col-small" data-node="5b0989d14b25f">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-photo fl-node-5b09947556b81" data-node="5b09947556b81">
 	<div class="fl-module-content fl-node-content">
-		<div class="fl-button-wrap fl-button-width-auto fl-button-center">
-			<a href="" target="_self" class="fl-button" role="button">
-							<span class="fl-button-text">See Case Study</span>
-					</a>
+		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img class="fl-photo-img wp-image-154 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/Pre-Beef.jpg" alt="Pre Beef" itemprop="image" height="400" width="400" title="Pre Beef" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/Pre-Beef.jpg 400w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/Pre-Beef-150x150.jpg 150w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/Pre-Beef-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
+					</div>
+	</div>
+	</div>
 </div>
+<div class="fl-module fl-module-photo fl-node-5b099485e4fdc" data-node="5b099485e4fdc">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img class="fl-photo-img wp-image-150 size-full" src="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/manse.jpg" alt="manse" itemprop="image" height="400" width="400" title="manse" srcset="http://localhost:8888/adithi_test/wp-content/uploads/2018/05/manse.jpg 400w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/manse-150x150.jpg 150w, http://localhost:8888/adithi_test/wp-content/uploads/2018/05/manse-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
+					</div>
+	</div>
 	</div>
 </div>
 	</div>
@@ -388,7 +237,104 @@ html{font-size:112.5%;}a,.page-title{color:#0274be;}a:hover,a:focus{color:#3a3a3
 		</div>
 	</div>
 </div>
-<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b099d6b86091" data-node="5b099d6b86091">
+<div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5b09898aedd97" data-node="5b09898aedd97">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b09898aedd9a" data-node="5b09898aedd9a">
+			<div class="fl-col fl-node-5b09898aedd98" data-node="5b09898aedd98">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-separator fl-node-5b09898aedd91" data-node="5b09898aedd91">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-separator"></div>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5b09898aedd92" data-node="5b09898aedd92">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b09898aedd8b" data-node="5b09898aedd8b">
+			<div class="fl-col fl-node-5b09898aedd6e" data-node="5b09898aedd6e">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-heading fl-node-5b09898aedd9b" data-node="5b09898aedd9b">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<span class="fl-heading-text">Client Love!</span>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-testimonials fl-node-5b09898aedd89" data-node="5b09898aedd89">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-testimonials-wrap wide">
+
+	
+	<div class="fl-testimonials">
+				<div class="fl-testimonial">
+			<p style="text-align: center;"><span style="font-size: large;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dui eros. Suspendisse iaculis, dui in luctus luctus, turpis ipsum blandit est, sed fermentum arcu sem quis purus.</span></p><p style="text-align: center;"><span style="font-size: large;"><em><strong>~ Justin Busa</strong></em></span></p>		</div>
+				<div class="fl-testimonial">
+			<p style="text-align: center;"><span style="font-size: large;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dui eros. Suspendisse iaculis, dui in luctus luctus, turpis ipsum blandit est, sed fermentum arcu sem quis purus.</span></p><p style="text-align: center;"><span style="font-size: large;"><em><strong>~ Billy Young</strong></em></span></p>		</div>
+				<div class="fl-testimonial">
+			<p style="text-align: center;"><span style="font-size: large;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dui eros. Suspendisse iaculis, dui in luctus luctus, turpis ipsum blandit est, sed fermentum arcu sem quis purus.</span></p><p style="text-align: center;"><span style="font-size: large;"><em><strong>~ Robby McCullough</strong></em></span></p>		</div>
+			</div>
+
+	<div class="fl-slider-next"></div>
+	<div class="fl-slider-prev"></div>
+
+</div>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5b09898aedd87" data-node="5b09898aedd87">
+	<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5b09898aedd8c" data-node="5b09898aedd8c">
+			<div class="fl-col fl-node-5b09898aedd78" data-node="5b09898aedd78">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-separator fl-node-5b09898aedd96" data-node="5b09898aedd96">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-separator"></div>
+	</div>
+</div>
+<div class="fl-module fl-module-icon-group fl-node-5b09898aedd7b" data-node="5b09898aedd7b">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group fl-icon-group-center">
+	<span class="fl-icon">
+						<a href="https://www.facebook.com/pages/FastLine-Media/106732702687887" target="_blank" aria-label="link to https://www.facebook.com/pages/FastLine-Media/106732702687887" rel="noopener">
+						<i class="fa fa-facebook"></i>
+		</a>	</span>
+
+		<span class="fl-icon">
+						<a href="https://twitter.com/fastlinemedia" target="_blank" aria-label="link to https://twitter.com/fastlinemedia" rel="noopener">
+						<i class="fa fa-twitter"></i>
+		</a>	</span>
+
+		<span class="fl-icon">
+						<a href="https://plus.google.com/115002760022100564436/about" target="_blank" aria-label="link to https://plus.google.com/115002760022100564436/about" rel="noopener">
+						<i class="fa fa-google-plus"></i>
+		</a>	</span>
+
+	</div>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5b09a066dc70b" data-node="5b09a066dc70b">
 	<div class="fl-row-content-wrap">
 				<div class="fl-row-content fl-row-full-width fl-node-content">
 		
@@ -491,8 +437,10 @@ var astra = {"break_point":"921"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/themes/astra/assets/js/minified/style.min.js?ver=1.3.3'></script>
-<script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/plugins/bb-plugin/js/jquery.waypoints.min.js?ver=2.1.2.2'></script>
-<script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/uploads/bb-plugin/cache/9-layout.js?ver=c7ed05181aeaded6a937a9407e161d43'></script>
+<script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/plugins/bb-plugin/js/jquery.easing.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/plugins/bb-plugin/js/jquery.fitvids.min.js?ver=1.2'></script>
+<script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/plugins/bb-plugin/js/jquery.bxslider.js?ver=2.1.2.2'></script>
+<script type='text/javascript' src='http://localhost:8888/adithi_test/wp-content/uploads/bb-plugin/cache/38-layout.js?ver=cb2f7cd8a3b284122e3444ca168943f6'></script>
 <script type='text/javascript' src='http://localhost:8888/adithi_test/wp-includes/js/wp-embed.min.js?ver=4.9.6'></script>
 	<!--[if lte IE 8]>
 		<script type="text/javascript">
@@ -527,7 +475,7 @@ var astra = {"break_point":"921"};
 		<li id="wp-admin-bar-themes"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/themes.php">Themes</a>		</li>
 		<li id="wp-admin-bar-widgets"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/widgets.php">Widgets</a>		</li>
 		<li id="wp-admin-bar-menus"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/nav-menus.php">Menus</a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8888%2Fadithi_test%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8888%2Fadithi_test%2Fportfolio%2F">Customize</a>		</li>
 		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/update-core.php" title="1 Plugin Update"><span class="ab-icon"></span><span class="ab-label">1</span><span class="screen-reader-text">1 Plugin Update</span></a>		</li>
 		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text">0 comments awaiting moderation</span></a>		</li>
 		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8888/adithi_test/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
@@ -536,8 +484,8 @@ var astra = {"break_point":"921"};
 		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/post-new.php?post_type=page">Page</a>		</li>
 		<li id="wp-admin-bar-new-fl-builder-template"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/post-new.php?post_type=fl-builder-template">Template</a>		</li>
 		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/post.php?post=9&#038;action=edit">Edit Page</a>		</li>
-		<li id="wp-admin-bar-fl-builder-frontend-edit-link"><a class="ab-item" href="http://localhost:8888/adithi_test/?fl_builder"><span class="ab-icon"></span>Beaver Builder <span class="fl-builder-admin-bar-status-dot" style="color:#6bc373; font-size:18px; line-height:1;">&bull;</span></a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost:8888/adithi_test/wp-admin/post.php?post=38&#038;action=edit">Edit Page</a>		</li>
+		<li id="wp-admin-bar-fl-builder-frontend-edit-link"><a class="ab-item" href="http://localhost:8888/adithi_test/portfolio/?fl_builder"><span class="ab-icon"></span>Beaver Builder <span class="fl-builder-admin-bar-status-dot" style="color:#6bc373; font-size:18px; line-height:1;">&bull;</span></a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
 		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost:8888/adithi_test/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
 		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost:8888/adithi_test/wp-admin/profile.php">Howdy, <span class="display-name">adithi_chandrashekar</span><img alt='' src='http://1.gravatar.com/avatar/41724c971505735d160dfec2b9c93577?s=26&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/41724c971505735d160dfec2b9c93577?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
 		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost:8888/adithi_test/wp-admin/profile.php"><img alt='' src='http://1.gravatar.com/avatar/41724c971505735d160dfec2b9c93577?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/41724c971505735d160dfec2b9c93577?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>adithi_chandrashekar</span></a>		</li>
@@ -550,5 +498,5 @@ var astra = {"break_point":"921"};
 	</body>
 </html>
 
-<!-- Dynamic page generated in 0.532 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2018-05-26 20:58:47 -->
+<!-- Dynamic page generated in 0.436 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-05-26 21:14:05 -->
