@@ -47,6 +47,11 @@ Buttons
   background:#adbaaa;
 }
 
+.button_onwhite:hover {
+  color:#ffffff;
+  background:#adbaaa;
+}
+
 /* ////////////////////////////////////////// -_-
 HEADER
 /////////////////////////////////////////////*/
