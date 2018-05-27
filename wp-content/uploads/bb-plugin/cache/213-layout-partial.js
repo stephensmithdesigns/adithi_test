@@ -1,0 +1,3 @@
+
+jQuery(function($){$(function(){$('.fl-node-5b09a25848fc9 .fl-photo-img').on('mouseenter',function(e){$(this).data('title',$(this).attr('title')).removeAttr('title');}).on('mouseleave',function(e){$(this).attr('title',$(this).data('title')).data('title',null);});});});(function($){$(function(){$('.fl-node-5b09a128c481b .fl-mosaicflow-content').one('filled',function(){var hash=window.location.hash.replace('#','');if(hash!=''){FLBuilderLayout._scrollToElement($('#'+hash));}
+if('undefined'!=typeof Waypoint){Waypoint.refreshAll();}}).mosaicflow({itemSelector:'.fl-mosaicflow-item',columnClass:'fl-mosaicflow-col',minItemWidth:400});});})(jQuery);

@@ -21,16 +21,12 @@ function child_enqueue_styles() {
 	wp_enqueue_style( 'astra_child-theme-css', get_stylesheet_directory_uri() .
 	'/style.css', array('astra-theme-css'), CHILD_THEME_ASTRA_CHILD_VERSION, 'all' );
 
+	wp_enqueue_script( 'sticky-sidebar', get_stylesheet_directory_uri() . '/sticky-sidebar.js', array( 'jquery' ), 'all' );
+}
+
+	wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() . '/main.js', array( 'jquery', 'all' ) );
+	}
+
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
-
-
-/**
- * Adding Social Icon Sizes
- */
-add_filter( 'storm_social_icons_size', create_function( '', 'return "normal";' ) );
-add_filter( 'storm_social_icons_size', create_function( '', 'return "large";' ) );
-add_filter( 'storm_social_icons_size', create_function( '', 'return "2x";' ) );
-add_filter( 'storm_social_icons_size', create_function( '', 'return "3x";' ) );
-add_filter( 'storm_social_icons_size', create_function( '', 'return "4x";' ) );

@@ -22,6 +22,7 @@ COlORS
 TYPOGRAPHY
 /////////////////////////////////////////////*/
 
+
 #home_header_text h1 {
   font-size:33px;
 }
@@ -35,19 +36,37 @@ TYPOGRAPHY
   text-align:center;
 }
 
+div#text_oncolor {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: .01em;
+  font-size: 21px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
 /* ////////////////////////////////////////// -_-
 Buttons
 /////////////////////////////////////////////*/
 
-.button_onwhite {
-  color:#ffffff;
-  background:#adbaaa;
-}
+#button_onwhite a, .form_colorbg a
 
-.button_onwhite:hover {
-  color:#ffffff;
-  background:#adbaaa;
-}
+ {
+   text-transform:uppercase;
+   border:2px solid #ffffff;
+   letter-spacing:.1em;
+   font-weight:900;
+ }
+
+#button_onwhite a:hover, .form_colorbg a:hover
+ {
+   border:2px solid;
+ }
+
+ #button_oncolor a{
+   border:2px solid #ffffff;
+   text-transform:uppercase;
+ }
 
 /* ////////////////////////////////////////// -_-
 HEADER
@@ -128,6 +147,10 @@ div#mobile_arrow {
   margin:0 auto;
 }
 
+.squigle_thin img {
+  width:10px;
+}
+
 /* ////////////////////////////////////////// -_-
 MAIN CONTENT
 /////////////////////////////////////////////*/
@@ -182,6 +205,16 @@ div.desc:hover {
   opacity: 0;
   transition: .4s ease;
   background-color: #f5bf3f;
+}
+
+
+/* ////////////////////////////////////////// -_-
+Single Project Page
+/////////////////////////////////////////////*/
+
+
+.singleportfolio_sidebar {
+
 }
 
 /* ////////////////////////////////////////// -_-
