@@ -26,6 +26,20 @@ TYPOGRAPHY
 #home_header_text h1 {
   font-size:33px;
 }
+
+a, .page-title {
+  color: #adbaaa;
+  font-weight:800;
+}
+
+a:hover, .page-title:hover {
+  color: #707274;
+}
+
+.ast-page-builder-template .entry-header {
+  padding:0;
+}
+
 .entry-content h1, .bottom_text {
   font-size:33px;
   color:#ffffff;
@@ -43,6 +57,14 @@ div#text_oncolor {
   font-size: 21px;
   text-align: center;
   line-height: 1.4em;
+}
+
+.description {
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing: .05em;
+    font-size: 16px;
+    color: #707274;
 }
 
 /* ////////////////////////////////////////// -_-
@@ -85,7 +107,7 @@ color:#707274;
   color:#707274;
   text-transform:uppercase;
   letter-spacing: .1em;
-  font-weight: 100;
+  font-weight: 400;
   position: relative;
   text-decoration: none;
   padding:0;
@@ -151,6 +173,14 @@ div#mobile_arrow {
   width:10px;
 }
 
+.menu-toggle, button, .ast-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+  background-color: #707274;
+}
+
+.ast-header-break-point .main-navigation ul li a {
+  text-align:center;
+}
+
 /* ////////////////////////////////////////// -_-
 MAIN CONTENT
 /////////////////////////////////////////////*/
@@ -166,6 +196,32 @@ div.gallery {
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+.fl-photo-caption-hover {
+  background: #f5bf3f;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+  padding: 10px 15px;
+  display:flex;
+  position: absolute;
+  right: 0;
+  height:100%;
+  align-items:center;
+  justify-content:center;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  font-weight:bold;
+  pointer-events:none;
+}
+
+#aztecalogo_singleportfolio img, #prebeef_singleportfolio img {
+  width:400px;
+  float:left;
 }
 
 div.desc {
@@ -213,10 +269,15 @@ Single Project Page
 /////////////////////////////////////////////*/
 
 
-.singleportfolio_sidebar {
-
+.stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
+.single_gallery img {
+      box-shadow: 0px 0px 17px #0000001f;
+}
 /* ////////////////////////////////////////// -_-
 FOOTER
 /////////////////////////////////////////////*/
