@@ -35,3 +35,9 @@ function theme_js() {
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_js');
+
+function load_fonts() {
+            wp_register_style('et-googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300');
+            wp_enqueue_style( 'et-googleFonts');
+        }
+    add_action('wp_print_styles', 'load_fonts');

@@ -1,0 +1,2 @@
+
+jQuery(function($){$(function(){$('.fl-node-5b0d56f16ed16 .fl-photo-img').on('mouseenter',function(e){$(this).data('title',$(this).attr('title')).removeAttr('title');}).on('mouseleave',function(e){$(this).attr('title',$(this).data('title')).data('title',null);});});});(function($){$(function(){new FLBuilderContactForm({id:'5b09ab2cdc3d3'});});})(jQuery);
