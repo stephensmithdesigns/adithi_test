@@ -198,14 +198,14 @@ div.gallery img {
 }
 
 .fl-photo-caption-hover {
-  background: #f5bf3f;
+  background: #707274;
   bottom: 0;
   color: #fff;
   left: 0;
   opacity: 0;
   filter: alpha(opacity = 0);
   padding: 10px 15px;
-  display:flex;
+  display:none;
   position: absolute;
   right: 0;
   font-size:25px;
