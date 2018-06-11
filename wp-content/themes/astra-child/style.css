@@ -180,6 +180,11 @@ div#mobile_arrow {
   text-align:center;
 }
 
+#line_size01 {
+  width:55px;
+  margin:0 auto;
+}
+
 /* ////////////////////////////////////////// -_-
 MAIN CONTENT
 /////////////////////////////////////////////*/
