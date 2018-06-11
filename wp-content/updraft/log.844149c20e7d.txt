@@ -1,0 +1,141 @@
+0000.000 (0) Opened log file at time: Fri, 01 Jun 2018 11:55:03 +0000 on http://localhost:8888/adithi_test
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.4M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 41785.1 MB
+0000.005 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.006 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.012 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1527853353, seconds_ago=750)
+0000.015 (0) Set semaphore last lock (d) time to 2018-06-01 11:55:03
+0000.016 (0) Semaphore lock (d) complete
+0000.020 (0) Backup run: resumption=0, nonce=844149c20e7d, begun at=1527854103 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1527854403) in case this run gets aborted
+0000.032 (0) This backup run is not intended for files - skipping
+0000.033 (0) Beginning creation of database dump (WordPress DB)
+0000.041 (0) Table wp_options: Total expected rows (approximate): 267
+0000.113 (0) Table wp_options: Total rows added: 264 in 0.07 seconds
+0000.116 (0) Table wp_options: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_options.table.gz - 86 KB)
+0000.123 (0) Table wp_users: Total expected rows (approximate): 0
+0000.126 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0000.129 (0) Table wp_users: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_users.table.gz - 0.6 KB)
+0000.134 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0000.137 (0) Table wp_usermeta: Total rows added: 25 in 0.00 seconds
+0000.139 (0) Table wp_usermeta: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_usermeta.table.gz - 1.2 KB)
+0000.145 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.148 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.149 (0) Table wp_commentmeta: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.155 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.160 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0000.162 (0) Table wp_comments: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_comments.table.gz - 0.7 KB)
+0000.169 (0) Table wp_links: Total expected rows (approximate): 0
+0000.173 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0000.174 (0) Table wp_links: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_links.table.gz - 0.4 KB)
+0000.180 (0) Table wp_postmeta: Total expected rows (approximate): 979
+0000.714 (0) Table wp_postmeta: Total rows added: 1035 in 0.53 seconds
+0000.717 (0) Table wp_postmeta: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_postmeta.table.gz - 549 KB)
+0000.724 (0) Table wp_posts: Total expected rows (approximate): 278
+0000.805 (0) Table wp_posts: Total rows added: 351 in 0.07 seconds
+0000.808 (0) Table wp_posts: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_posts.table.gz - 32.8 KB)
+0000.817 (0) Table wp_term_relationships: Total expected rows (approximate): 32
+0000.823 (0) Table wp_term_relationships: Total rows added: 31 in 0.00 seconds
+0000.825 (0) Table wp_term_relationships: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0000.836 (0) Table wp_term_taxonomy: Total expected rows (approximate): 7
+0000.840 (0) Table wp_term_taxonomy: Total rows added: 7 in 0.00 seconds
+0000.842 (0) Table wp_term_taxonomy: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0000.850 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0000.853 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0000.855 (0) Table wp_termmeta: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_termmeta.table.gz - 0.4 KB)
+0000.860 (0) Table wp_terms: Total expected rows (approximate): 7
+0000.867 (0) Table wp_terms: Total rows added: 7 in 0.00 seconds
+0000.870 (0) Table wp_terms: finishing file (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_terms.table.gz - 0.5 KB)
+0000.876 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_options.table.gz (1/12): adding to final database dump
+0000.932 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_users.table.gz (2/12): adding to final database dump
+0000.934 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0000.937 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0000.938 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0000.939 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_links.table.gz (6/12): adding to final database dump
+0000.941 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0001.578 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0001.599 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0001.600 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0001.601 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0001.602 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0001.603 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz: finished writing out complete database file (640 KB)
+0001.628 (0) Total database tables backed up: 12 (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz, size: 687001, sha256)
+0001.637 (0) backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.638 (0) Saving backup history. Total backup size: 670.9 KB
+0001.642 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.645 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0001.647 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-be9e22d4211b3cec230ce2fb7f2d4786)
+0001.647 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0001.656 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0002.374 (0) Dropbox quota usage: used=208.5 MB, total=2048 MB, available=1839.5 MB
+0002.376 (0) Dropbox: Attempt to upload: backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz to: backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz
+0035.046 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAB4fjLsUEcyoiw, 687001, 1024 KB)
+0036.971 (0) Recording as successfully uploaded: backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz (502ad0735da25bd54586505048896389)
+0036.979 (0) Deleting local file: backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz: OK
+0036.980 (0) Dropbox: File upload success (backup_2018-06-01-1155_localhost_adithi_test_844149c20e7d-db.gz): 670 KB in 34s (19 KB/s)
+0036.988 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=7
+0036.990 (0) Number of backup sets in history: 11; groups (db): 1
+0036.992 (0) Examining (for databases) backup set with group_id=0, nonce=844149c20e7d, datestamp=1527854103 (Jun 01 2018 11:55:03)
+0036.993 (0) This backup set is the backup set just made, so will not be deleted.
+0036.993 (0) Examining (for databases) backup set with group_id=0, nonce=1da8f711191e, datestamp=1527853353 (Jun 01 2018 11:42:33)
+0036.993 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.994 (0) Examining (for databases) backup set with group_id=0, nonce=5f9a7a5453a5, datestamp=1527852362 (Jun 01 2018 11:26:02)
+0036.994 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.994 (0) Examining (for databases) backup set with group_id=0, nonce=adc8938d52b5, datestamp=1527851643 (Jun 01 2018 11:14:03)
+0036.994 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.994 (0) Examining (for databases) backup set with group_id=0, nonce=a58017e689d3, datestamp=1527851133 (Jun 01 2018 11:05:33)
+0036.994 (0) Examining (for databases) backup set with group_id=0, nonce=dcb748219f3d, datestamp=1527850893 (Jun 01 2018 11:01:33)
+0036.994 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.994 (0) Examining (for databases) backup set with group_id=0, nonce=8507bccf9989, datestamp=1527850436 (Jun 01 2018 10:53:56)
+0036.994 (0) Examining (for databases) backup set with group_id=0, nonce=19cf69fe9282, datestamp=1527850075 (Jun 01 2018 10:47:55)
+0036.994 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.995 (0) Examining (for databases) backup set with group_id=0, nonce=83f744a11f40, datestamp=1527849085 (Jun 01 2018 10:31:25)
+0036.995 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0036.995 (0) Examining (for databases) backup set with group_id=0, nonce=e1b2b811c2ef, datestamp=1527849020 (Jun 01 2018 10:30:20)
+0036.995 (0) Examining (for databases) backup set with group_id=0, nonce=a930a185b88e, datestamp=1527849017 (Jun 01 2018 10:30:17)
+0036.995 (0) 1527849017: db: this set includes a database (backup_2018-06-01-1030_localhost_adithi_test_a930a185b88e-db.gz); db count is now 7
+0036.995 (0) 1527849017: db: over retain limit (7); will delete this database
+0036.995 (0) Delete file: backup_2018-06-01-1030_localhost_adithi_test_a930a185b88e-db.gz, service=dropbox
+0036.996 (0) Dropbox: request deletion: backup_2018-06-01-1030_localhost_adithi_test_a930a185b88e-db.gz
+0037.990 (0) Dropbox: delete succeeded
+0037.993 (0) This backup set is now empty; will remove from history
+0037.994 (0) Deleting log file (log.a930a185b88e.txt)
+0037.996 (0) Number of backup sets in history: 10; groups (files): 1
+0037.997 (0) Examining (for files) backup set with nonce=844149c20e7d, datestamp=1527854103 (Jun 01 2018 11:55:03)
+0037.997 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0037.998 (0) Examining (for files) backup set with nonce=1da8f711191e, datestamp=1527853353 (Jun 01 2018 11:42:33)
+0037.998 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0037.998 (0) Examining (for files) backup set with nonce=5f9a7a5453a5, datestamp=1527852362 (Jun 01 2018 11:26:02)
+0037.998 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0037.999 (0) Examining (for files) backup set with nonce=adc8938d52b5, datestamp=1527851643 (Jun 01 2018 11:14:03)
+0037.999 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0037.999 (0) Examining (for files) backup set with nonce=a58017e689d3, datestamp=1527851133 (Jun 01 2018 11:05:33)
+0037.999 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0038.000 (0) Examining (for files) backup set with nonce=dcb748219f3d, datestamp=1527850893 (Jun 01 2018 11:01:33)
+0038.000 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.001 (0) Examining (for files) backup set with nonce=8507bccf9989, datestamp=1527850436 (Jun 01 2018 10:53:56)
+0038.001 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0038.002 (0) Examining (for files) backup set with nonce=19cf69fe9282, datestamp=1527850075 (Jun 01 2018 10:47:55)
+0038.002 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.003 (0) Examining (for files) backup set with nonce=83f744a11f40, datestamp=1527849085 (Jun 01 2018 10:31:25)
+0038.003 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.004 (0) Examining (for files) backup set with nonce=e1b2b811c2ef, datestamp=1527849020 (Jun 01 2018 10:30:20)
+0038.004 (0) plugins: over retain limit (2); will delete this file entity
+0038.004 (0) themes: over retain limit (2); will delete this file entity
+0038.004 (0) uploads: over retain limit (2); will delete this file entity
+0038.004 (0) others: over retain limit (2); will delete this file entity
+0038.004 (0) Delete file: backup_2018-06-01-1030_localhost_adithi_test_e1b2b811c2ef-plugins.zip, service=dropbox
+0038.005 (0) Delete file: backup_2018-06-01-1030_localhost_adithi_test_e1b2b811c2ef-themes.zip, service=dropbox
+0038.007 (0) Delete file: backup_2018-06-01-1030_localhost_adithi_test_e1b2b811c2ef-uploads.zip, service=dropbox
+0038.008 (0) Delete file: backup_2018-06-01-1030_localhost_adithi_test_e1b2b811c2ef-others.zip, service=dropbox
+0038.009 (0) Dropbox: request deletion: backup_2018-06-01-1030_localhost_adithi_test_e1b2b811c2ef-plugins.zip
+0038.716 (0) Dropbox error: path_lookup (line: 224, file: /Applications/MAMP/htdocs/adithi_test/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0038.727 (0) This backup set is now empty; will remove from history
+0038.728 (0) Deleting log file (log.e1b2b811c2ef.txt)
+0038.730 (0) Retain: saving new backup history (sets now: 9) and finishing retain operation
+0038.736 (0) Resume backup (844149c20e7d, 0): finish run
+0038.739 (0) Decremented the semaphore (d) by 1
+0038.740 (0) Semaphore (d) unlocked
+0038.741 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0038.746 (0) No email will/can be sent - the user has not configured an email address.
+0038.748 (0) The backup apparently succeeded and is now complete

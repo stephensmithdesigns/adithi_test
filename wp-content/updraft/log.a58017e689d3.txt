@@ -1,0 +1,562 @@
+0000.000 (0) Opened log file at time: Fri, 01 Jun 2018 11:05:33 +0000 on http://localhost:8888/adithi_test
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.4M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 42098.3 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.013 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1527850436, seconds_ago=697)
+0000.015 (0) Semaphore (f, wp_options) was stuck, set lock time to 2018-06-01 11:05:33
+0000.018 (0) Semaphore (f, wp_options) reset to 1
+0000.019 (0) Set semaphore last lock (f) time to 2018-06-01 11:05:33
+0000.021 (0) Semaphore lock (f) complete
+0000.025 (0) Backup run: resumption=0, nonce=a58017e689d3, begun at=1527851133 (0s ago), job type=backup
+0000.028 (0) Scheduling a resumption (1) after 300 seconds (1527851433) in case this run gets aborted
+0000.039 (0) Checking if we have a zip executable available
+0000.041 (0) Testing: /usr/bin/zip
+0000.056 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.058 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.061 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.078 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.080 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.092 (0) Working binary zip found: /usr/bin/zip
+0000.095 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.096 (0) Creation of backups of directories: beginning
+0000.101 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.246 (0) Total entities for the zip file: 639 directories, 3606 files (0 skipped as non-modified), 59 MB
+0000.254 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.260 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.265 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.271 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.277 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.278 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.3 MB, 3606 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.058 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: size is now: 5.80 MB
+0001.065 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 600 files added (on-disk size: 5944.7 KB)
+0001.069 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 700 files added (on-disk size: 5944.7 KB)
+0001.074 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 800 files added (on-disk size: 5944.7 KB)
+0001.078 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 900 files added (on-disk size: 5944.7 KB)
+0001.084 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1000 files added (on-disk size: 5944.7 KB)
+0001.086 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 3606 files batched, 501 (1002) added so far); re-opening (prior size: 5944.7 KB)
+0001.233 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1100 files added (on-disk size: 6498.4 KB)
+0001.251 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1200 files added (on-disk size: 6498.4 KB)
+0001.258 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1300 files added (on-disk size: 6498.4 KB)
+0001.263 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1400 files added (on-disk size: 6498.4 KB)
+0001.268 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1500 files added (on-disk size: 6498.4 KB)
+0001.270 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 3606 files batched, 501 (1503) added so far); re-opening (prior size: 6498.4 KB)
+0001.460 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: size is now: 7.80 MB
+0001.468 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1600 files added (on-disk size: 8027.9 KB)
+0001.473 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1700 files added (on-disk size: 8027.9 KB)
+0001.478 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1800 files added (on-disk size: 8027.9 KB)
+0001.484 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 1900 files added (on-disk size: 8027.9 KB)
+0001.491 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2000 files added (on-disk size: 8027.9 KB)
+0001.492 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 3606 files batched, 501 (2004) added so far); re-opening (prior size: 8027.9 KB)
+0001.983 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: size is now: 11.10 MB
+0001.989 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2100 files added (on-disk size: 11375 KB)
+0001.994 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2200 files added (on-disk size: 11375 KB)
+0001.998 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2300 files added (on-disk size: 11375 KB)
+0002.004 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2400 files added (on-disk size: 11375 KB)
+0002.009 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2500 files added (on-disk size: 11375 KB)
+0002.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 3606 files batched, 501 (2505) added so far); re-opening (prior size: 11375 KB)
+0002.218 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2600 files added (on-disk size: 12572.7 KB)
+0002.224 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2700 files added (on-disk size: 12572.7 KB)
+0002.230 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2800 files added (on-disk size: 12572.7 KB)
+0002.234 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 2900 files added (on-disk size: 12572.7 KB)
+0002.239 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3000 files added (on-disk size: 12572.7 KB)
+0002.241 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 3606 files batched, 501 (3006) added so far); re-opening (prior size: 12572.7 KB)
+0002.603 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3100 files added (on-disk size: 14648 KB)
+0002.608 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3200 files added (on-disk size: 14648 KB)
+0002.614 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3300 files added (on-disk size: 14648 KB)
+0002.620 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3400 files added (on-disk size: 14648 KB)
+0002.634 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3500 files added (on-disk size: 14648 KB)
+0002.636 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 3606 files batched, 501 (3507) added so far); re-opening (prior size: 14648 KB)
+0003.089 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: size is now: 18.40 MB
+0003.096 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip.tmp: 3600 files added (on-disk size: 18888.4 KB)
+0003.746 (0) Created plugins zip (0) - 19961.3 KB in 3.6 s (5479.1 KB/s) (sha1: 5ae36cc412e372be3674933b67ee1b7d38bb39cf, sha256: 462186d59cab3a2486e31aab544a11c66959bbc38d5630b94ca91c3abfc936de)
+0003.751 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.941 (0) Total entities for the zip file: 1178 directories, 5003 files (0 skipped as non-modified), 22.1 MB
+0003.947 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.951 (0) File skipped due to unexpected name mismatch (locale: C): file=/Applications/MAMP/htdocs/adithi_test/wp-content/themes/node_modules/errno/cli.js add_as=themes/node_modules/.bin/errno
+0003.951 (0) File skipped due to unexpected name mismatch (locale: C): file=/Applications/MAMP/htdocs/adithi_test/wp-content/themes/node_modules/user-home/cli.js add_as=themes/node_modules/.bin/user-home
+0003.952 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.956 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.960 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.965 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.966 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 5003 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.143 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 0.90 MB
+0004.154 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 600 files added (on-disk size: 898.2 KB)
+0004.160 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 700 files added (on-disk size: 898.2 KB)
+0004.164 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 800 files added (on-disk size: 898.2 KB)
+0004.169 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 900 files added (on-disk size: 898.2 KB)
+0004.174 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1000 files added (on-disk size: 898.2 KB)
+0004.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 MB, 5003 files batched, 501 (1002) added so far); re-opening (prior size: 898.2 KB)
+0004.274 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 1.30 MB
+0004.282 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1100 files added (on-disk size: 1281.5 KB)
+0004.289 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1200 files added (on-disk size: 1281.5 KB)
+0004.295 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1300 files added (on-disk size: 1281.5 KB)
+0004.308 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1400 files added (on-disk size: 1281.5 KB)
+0004.314 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1500 files added (on-disk size: 1281.5 KB)
+0004.315 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 MB, 5003 files batched, 501 (1503) added so far); re-opening (prior size: 1281.5 KB)
+0004.408 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 1.50 MB
+0004.417 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1600 files added (on-disk size: 1578 KB)
+0004.423 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1700 files added (on-disk size: 1578 KB)
+0004.429 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1800 files added (on-disk size: 1578 KB)
+0004.435 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 1900 files added (on-disk size: 1578 KB)
+0004.448 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2000 files added (on-disk size: 1578 KB)
+0004.450 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 5003 files batched, 501 (2004) added so far); re-opening (prior size: 1578 KB)
+0004.617 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 2.40 MB
+0004.626 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2100 files added (on-disk size: 2424.9 KB)
+0004.632 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2200 files added (on-disk size: 2424.9 KB)
+0004.638 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2300 files added (on-disk size: 2424.9 KB)
+0004.644 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2400 files added (on-disk size: 2424.9 KB)
+0004.650 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2500 files added (on-disk size: 2424.9 KB)
+0004.651 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 5003 files batched, 501 (2505) added so far); re-opening (prior size: 2424.9 KB)
+0004.783 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 2.90 MB
+0004.791 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2600 files added (on-disk size: 2969.5 KB)
+0004.797 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2700 files added (on-disk size: 2969.5 KB)
+0004.803 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2800 files added (on-disk size: 2969.5 KB)
+0004.809 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 2900 files added (on-disk size: 2969.5 KB)
+0004.813 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3000 files added (on-disk size: 2969.5 KB)
+0004.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 5003 files batched, 501 (3006) added so far); re-opening (prior size: 2969.5 KB)
+0004.963 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 3.50 MB
+0004.971 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3100 files added (on-disk size: 3605.3 KB)
+0004.977 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3200 files added (on-disk size: 3605.3 KB)
+0004.984 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3300 files added (on-disk size: 3605.3 KB)
+0004.989 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3400 files added (on-disk size: 3605.3 KB)
+0004.994 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3500 files added (on-disk size: 3605.3 KB)
+0004.996 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 5003 files batched, 501 (3507) added so far); re-opening (prior size: 3605.3 KB)
+0005.263 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 4.80 MB
+0005.271 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3600 files added (on-disk size: 4899.5 KB)
+0005.277 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3700 files added (on-disk size: 4899.5 KB)
+0005.282 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3800 files added (on-disk size: 4899.5 KB)
+0005.287 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 3900 files added (on-disk size: 4899.5 KB)
+0005.293 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4000 files added (on-disk size: 4899.5 KB)
+0005.295 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 5003 files batched, 501 (4008) added so far); re-opening (prior size: 4899.5 KB)
+0005.562 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: size is now: 6.10 MB
+0005.571 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4100 files added (on-disk size: 6216.7 KB)
+0005.577 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4200 files added (on-disk size: 6216.7 KB)
+0005.583 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4300 files added (on-disk size: 6216.7 KB)
+0005.589 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4400 files added (on-disk size: 6216.7 KB)
+0005.595 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4500 files added (on-disk size: 6216.7 KB)
+0005.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 5003 files batched, 501 (4509) added so far); re-opening (prior size: 6216.7 KB)
+0005.785 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4600 files added (on-disk size: 7016.9 KB)
+0005.791 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4700 files added (on-disk size: 7016.9 KB)
+0005.796 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4800 files added (on-disk size: 7016.9 KB)
+0005.802 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 4900 files added (on-disk size: 7016.9 KB)
+0005.807 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip.tmp: 5000 files added (on-disk size: 7016.9 KB)
+0006.265 (0) Created themes zip (0) - 8136.3 KB in 2.5 s (3238.8 KB/s) (sha1: 361892e829fb7ca528f3ca5c1863f63ed039c11a, sha256: 5ec6a34978de0b555bca0c9e6496bcbe2de6e41679c456e2042197d93ad8aec5)
+0006.270 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.271 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/adithi_test/wp-content/uploads
+0006.272 (0) finding files: 2018: adding to list (1)
+0006.273 (0) finding files: bb-plugin: adding to list (2)
+0006.274 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.290 (0) Total entities for the zip file: 6 directories, 445 files (0 skipped as non-modified), 118.7 MB
+0006.294 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 445 files batched, 89 (89) added so far); re-opening (prior size: 0 KB)
+0006.435 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip.tmp: size is now: 25.00 MB
+0006.439 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.9 s, rate: 29384.8 KB/s)
+0006.442 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.87188196182251, normalised_time=0.87119741728206, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=180540480)
+0006.446 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip.tmp: 100 files added (on-disk size: 25641.2 KB)
+0006.451 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip.tmp: 200 files added (on-disk size: 25641.2 KB)
+0006.457 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip.tmp: 300 files added (on-disk size: 25641.2 KB)
+0006.479 (0) Zip: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip.tmp: 400 files added (on-disk size: 25641.2 KB)
+0007.047 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip.tmp: size is now: 118.00 MB
+0009.581 (0) Created uploads zip (0) - 120874.7 KB in 3.3 s (36570.3 KB/s) (sha1: aec256eaccdddd66300e597bb5dcd875eee1934c, sha256: fb508e9e74a8403926a62062cb2e4d6002a727ee9f9f5ff51b70152ecbb208e5)
+0009.584 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.585 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.586 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/adithi_test/wp-content
+0009.587 (0) finding files: upgrade: skipping: excluded by options
+0009.588 (0) finding files: index.php: adding to list (1)
+0009.589 (0) finding files: cache: skipping: excluded by options
+0009.590 (0) finding files: plugins: skipping: this is the plugins directory
+0009.591 (0) finding files: uploads: skipping: this is the uploads directory
+0009.592 (0) finding files: updraft: skipping: this is the updraft directory
+0009.593 (0) finding files: advanced-cache.php: adding to list (2)
+0009.594 (0) finding files: wp-cache-config.php: adding to list (3)
+0009.595 (0) finding files: themes: skipping: this is the themes directory
+0009.598 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0009.612 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip.tmp: size is now: 0.00 MB
+0009.627 (0) Created others zip (0) - 3 KB in 0 s (100.5 KB/s) (sha1: 770fe310de4614a07fdae059798aa17353c85765, sha256: 6d1f11a74a72bdeaa0fda1b03fa7bca8fe0830896b018396f101b57760bbd253)
+0009.634 (0) Saving backup status to database (elements: 8)
+0009.639 (0) No database backup (wp) - not part of this run
+0009.644 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.645 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.646 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.647 (0) backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.648 (0) Saving backup history. Total backup size: 145.5 MB
+0009.654 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0009.658 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0009.660 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-be9e22d4211b3cec230ce2fb7f2d4786)
+0009.661 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0009.672 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0013.699 (0) Dropbox quota usage: used=68.8 MB, total=2048 MB, available=1979.2 MB
+0013.702 (0) Dropbox: Attempt to upload: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip to: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip
+0065.028 (0) Dropbox chunked upload: 5.1 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 1048576, 1024 KB)
+0094.143 (0) Dropbox chunked upload: 10.3 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 2097152, 1024 KB)
+0142.996 (0) Dropbox chunked upload: 15.4 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 3145728, 1024 KB)
+0189.735 (0) Dropbox chunked upload: 20.5 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 4194304, 1024 KB)
+0229.198 (0) Dropbox chunked upload: 25.6 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 5242880, 1024 KB)
+0257.366 (0) The scheduled resumption is within 45 seconds - will reschedule
+0257.372 (0) Rescheduling resumption 1: moving to 345 seconds from now (1527851735)
+0257.376 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0257.377 (0) Dropbox chunked upload: 30.8 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 6291456, 1024 KB)
+0293.673 (0) Dropbox chunked upload: 35.9 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 7340032, 1024 KB)
+0320.428 (0) The time we have been running (320.4) is approaching the resumption interval (345) - increasing resumption interval to 351
+0320.431 (0) Dropbox chunked upload: 41 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 8388608, 1024 KB)
+0345.932 (0) The time we have been running (345.9) is approaching the resumption interval (351) - increasing resumption interval to 376
+0345.937 (0) Dropbox chunked upload: 46.2 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 9437184, 1024 KB)
+0372.388 (0) The time we have been running (372.4) is approaching the resumption interval (376) - increasing resumption interval to 403
+0372.391 (0) Dropbox chunked upload: 51.3 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 10485760, 1024 KB)
+0404.546 (0) The time we have been running (404.5) is approaching the resumption interval (403) - increasing resumption interval to 435
+0404.550 (0) Dropbox chunked upload: 56.4 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 11534336, 1024 KB)
+0445.826 (0) The time we have been running (445.8) is approaching the resumption interval (435) - increasing resumption interval to 476
+0445.830 (0) Dropbox chunked upload: 61.6 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 12582912, 1024 KB)
+0493.863 (0) The time we have been running (493.9) is approaching the resumption interval (476) - increasing resumption interval to 524
+0493.866 (0) Dropbox chunked upload: 66.7 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 13631488, 1024 KB)
+0549.108 (0) The time we have been running (549.1) is approaching the resumption interval (524) - increasing resumption interval to 580
+0549.111 (0) Dropbox chunked upload: 71.8 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 14680064, 1024 KB)
+0581.614 (0) The time we have been running (581.6) is approaching the resumption interval (580) - increasing resumption interval to 612
+0581.619 (0) The scheduled resumption is within 45 seconds - will reschedule
+0581.623 (0) Rescheduling resumption 1: moving to 657 seconds from now (1527852372)
+0581.629 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 612 + 45 = 657
+0581.630 (0) Dropbox chunked upload: 76.9 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 15728640, 1024 KB)
+0618.694 (0) Dropbox chunked upload: 82.1 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 16777216, 1024 KB)
+0651.361 (0) The time we have been running (651.4) is approaching the resumption interval (657) - increasing resumption interval to 682
+0651.365 (0) Dropbox chunked upload: 87.2 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 17825792, 1024 KB)
+0681.480 (0) The time we have been running (681.5) is approaching the resumption interval (682) - increasing resumption interval to 712
+0681.484 (0) Dropbox chunked upload: 92.3 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 18874368, 1024 KB)
+0721.494 (0) The time we have been running (721.5) is approaching the resumption interval (712) - increasing resumption interval to 752
+0721.497 (0) Dropbox chunked upload: 97.5 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 19922944, 1024 KB)
+0743.158 (0) The time we have been running (743.2) is approaching the resumption interval (752) - increasing resumption interval to 774
+0743.162 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABfJT_56N_Oy_w, 20440324, 1024 KB)
+0745.594 (0) Recording as successfully uploaded: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip (1ec08d68337d194004bdce560bcde9de)
+0745.603 (0) Deleting local file: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip: OK
+0745.604 (0) Dropbox: File upload success (backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-plugins.zip): 19961 KB in 731s (27 KB/s)
+0748.721 (0) Dropbox quota usage: used=81.9 MB, total=2048 MB, available=1966.1 MB
+0748.724 (0) Dropbox: Attempt to upload: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip to: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip
+0791.833 (0) The time we have been running (791.8) is approaching the resumption interval (774) - increasing resumption interval to 822
+0791.836 (0) Dropbox chunked upload: 12.6 % uploaded (AAAAAAAAABooYPG3EAg41Q, 1048576, 1024 KB)
+0837.224 (0) The time we have been running (837.2) is approaching the resumption interval (822) - increasing resumption interval to 868
+0837.228 (0) Dropbox chunked upload: 25.2 % uploaded (AAAAAAAAABooYPG3EAg41Q, 2097152, 1024 KB)
+0875.989 (0) The time we have been running (876) is approaching the resumption interval (868) - increasing resumption interval to 906
+0875.992 (0) Dropbox chunked upload: 37.8 % uploaded (AAAAAAAAABooYPG3EAg41Q, 3145728, 1024 KB)
+0907.800 (0) The time we have been running (907.8) is approaching the resumption interval (906) - increasing resumption interval to 938
+0907.803 (0) Dropbox chunked upload: 50.3 % uploaded (AAAAAAAAABooYPG3EAg41Q, 4194304, 1024 KB)
+0933.536 (0) The time we have been running (933.5) is approaching the resumption interval (938) - increasing resumption interval to 964
+0933.538 (0) Dropbox chunked upload: 62.9 % uploaded (AAAAAAAAABooYPG3EAg41Q, 5242880, 1024 KB)
+0964.855 (0) The time we have been running (964.9) is approaching the resumption interval (964) - increasing resumption interval to 995
+0964.858 (0) Dropbox chunked upload: 75.5 % uploaded (AAAAAAAAABooYPG3EAg41Q, 6291456, 1024 KB)
+1019.504 (0) The time we have been running (1019.5) is approaching the resumption interval (995) - increasing resumption interval to 1050
+1019.506 (0) Dropbox chunked upload: 88.1 % uploaded (AAAAAAAAABooYPG3EAg41Q, 7340032, 1024 KB)
+1054.909 (0) The time we have been running (1054.9) is approaching the resumption interval (1050) - increasing resumption interval to 1085
+1054.912 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABooYPG3EAg41Q, 8331528, 1024 KB)
+1057.521 (0) Recording as successfully uploaded: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip (c8cd850c5e347188b933885a296327a9)
+1057.528 (0) Deleting local file: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip: OK
+1057.530 (0) Dropbox: File upload success (backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-themes.zip): 8136 KB in 308s (26 KB/s)
+1058.042 (0) Dropbox quota usage: used=89.8 MB, total=2048 MB, available=1958.2 MB
+1058.045 (0) Dropbox: Attempt to upload: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip to: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip
+1094.795 (0) The time we have been running (1094.8) is approaching the resumption interval (1085) - increasing resumption interval to 1125
+1094.798 (0) Dropbox chunked upload: 0.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 1048576, 1024 KB)
+1125.931 (0) The time we have been running (1125.9) is approaching the resumption interval (1125) - increasing resumption interval to 1156
+1125.934 (0) Dropbox chunked upload: 1.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 2097152, 1024 KB)
+1152.396 (0) The time we have been running (1152.4) is approaching the resumption interval (1156) - increasing resumption interval to 1183
+1152.400 (0) Dropbox chunked upload: 2.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 3145728, 1024 KB)
+1190.135 (0) The time we have been running (1190.1) is approaching the resumption interval (1183) - increasing resumption interval to 1221
+1190.138 (0) Dropbox chunked upload: 3.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 4194304, 1024 KB)
+1220.565 (0) The time we have been running (1220.6) is approaching the resumption interval (1221) - increasing resumption interval to 1251
+1220.569 (0) The scheduled resumption is within 45 seconds - will reschedule
+1220.573 (0) Rescheduling resumption 1: moving to 600 seconds from now (1527852954)
+1220.579 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1251 + 45 = 1296
+1220.580 (0) Dropbox chunked upload: 4.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 5242880, 1024 KB)
+1269.750 (0) The time we have been running (1269.7) is approaching the resumption interval (1296) - increasing resumption interval to 1300
+1269.753 (0) Dropbox chunked upload: 5.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 6291456, 1024 KB)
+1308.612 (0) The time we have been running (1308.6) is approaching the resumption interval (1300) - increasing resumption interval to 1339
+1308.616 (0) Dropbox chunked upload: 5.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 7340032, 1024 KB)
+1341.140 (0) The time we have been running (1341.1) is approaching the resumption interval (1339) - increasing resumption interval to 1372
+1341.143 (0) Dropbox chunked upload: 6.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 8388608, 1024 KB)
+1372.749 (0) The time we have been running (1372.7) is approaching the resumption interval (1372) - increasing resumption interval to 1403
+1372.752 (0) Dropbox chunked upload: 7.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 9437184, 1024 KB)
+1409.067 (0) The time we have been running (1409.1) is approaching the resumption interval (1403) - increasing resumption interval to 1440
+1409.071 (0) Dropbox chunked upload: 8.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 10485760, 1024 KB)
+1442.406 (0) The time we have been running (1442.4) is approaching the resumption interval (1440) - increasing resumption interval to 1473
+1442.409 (0) Dropbox chunked upload: 9.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 11534336, 1024 KB)
+1473.599 (0) The time we have been running (1473.6) is approaching the resumption interval (1473) - increasing resumption interval to 1504
+1473.602 (0) Dropbox chunked upload: 10.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 12582912, 1024 KB)
+1524.289 (0) The time we have been running (1524.3) is approaching the resumption interval (1504) - increasing resumption interval to 1555
+1524.292 (0) Dropbox chunked upload: 11 % uploaded (AAAAAAAAABtIITzLQDdAjw, 13631488, 1024 KB)
+1564.896 (0) The time we have been running (1564.9) is approaching the resumption interval (1555) - increasing resumption interval to 1595
+1564.900 (0) Dropbox chunked upload: 11.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 14680064, 1024 KB)
+1602.996 (0) The time we have been running (1603) is approaching the resumption interval (1595) - increasing resumption interval to 1633
+1603.000 (0) Dropbox chunked upload: 12.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 15728640, 1024 KB)
+1622.921 (0) The time we have been running (1622.9) is approaching the resumption interval (1633) - increasing resumption interval to 1653
+1622.925 (0) Dropbox chunked upload: 13.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 16777216, 1024 KB)
+1652.475 (0) The time we have been running (1652.5) is approaching the resumption interval (1653) - increasing resumption interval to 1683
+1652.478 (0) Dropbox chunked upload: 14.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 17825792, 1024 KB)
+1692.102 (0) The time we have been running (1692.1) is approaching the resumption interval (1683) - increasing resumption interval to 1723
+1692.106 (0) Dropbox chunked upload: 15.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 18874368, 1024 KB)
+1738.551 (0) The time we have been running (1738.5) is approaching the resumption interval (1723) - increasing resumption interval to 1769
+1738.555 (0) Dropbox chunked upload: 16.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 19922944, 1024 KB)
+1769.755 (0) The time we have been running (1769.8) is approaching the resumption interval (1769) - increasing resumption interval to 1800
+1769.758 (0) Dropbox chunked upload: 16.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 20971520, 1024 KB)
+1808.534 (0) The time we have been running (1808.5) is approaching the resumption interval (1800) - increasing resumption interval to 1839
+1808.537 (0) The scheduled resumption is within 45 seconds - will reschedule
+1808.541 (0) Rescheduling resumption 1: moving to 600 seconds from now (1527853541)
+1808.546 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1839 + 45 = 1884
+1808.548 (0) Dropbox chunked upload: 17.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 22020096, 1024 KB)
+1838.520 (0) Dropbox chunked upload: 18.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 23068672, 1024 KB)
+1876.275 (0) The time we have been running (1876.3) is approaching the resumption interval (1884) - increasing resumption interval to 1907
+1876.279 (0) Dropbox chunked upload: 19.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 24117248, 1024 KB)
+1922.348 (0) The time we have been running (1922.3) is approaching the resumption interval (1907) - increasing resumption interval to 1953
+1922.352 (0) Dropbox chunked upload: 20.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 25165824, 1024 KB)
+1959.220 (0) The time we have been running (1959.2) is approaching the resumption interval (1953) - increasing resumption interval to 1990
+1959.223 (0) Dropbox chunked upload: 21.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 26214400, 1024 KB)
+1991.374 (0) The time we have been running (1991.4) is approaching the resumption interval (1990) - increasing resumption interval to 2022
+1991.378 (0) Dropbox chunked upload: 22 % uploaded (AAAAAAAAABtIITzLQDdAjw, 27262976, 1024 KB)
+2024.606 (0) The time we have been running (2024.6) is approaching the resumption interval (2022) - increasing resumption interval to 2055
+2024.609 (0) Dropbox chunked upload: 22.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 28311552, 1024 KB)
+2069.864 (0) The time we have been running (2069.9) is approaching the resumption interval (2055) - increasing resumption interval to 2100
+2069.868 (0) Dropbox chunked upload: 23.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 29360128, 1024 KB)
+2109.061 (0) The time we have been running (2109.1) is approaching the resumption interval (2100) - increasing resumption interval to 2140
+2109.065 (0) Dropbox chunked upload: 24.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 30408704, 1024 KB)
+2133.036 (0) The time we have been running (2133) is approaching the resumption interval (2140) - increasing resumption interval to 2164
+2133.039 (0) Dropbox chunked upload: 25.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 31457280, 1024 KB)
+2177.072 (0) The time we have been running (2177.1) is approaching the resumption interval (2164) - increasing resumption interval to 2208
+2177.075 (0) Dropbox chunked upload: 26.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 32505856, 1024 KB)
+2216.154 (0) The time we have been running (2216.2) is approaching the resumption interval (2208) - increasing resumption interval to 2247
+2216.158 (0) Dropbox chunked upload: 27.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 33554432, 1024 KB)
+2246.792 (0) The time we have been running (2246.8) is approaching the resumption interval (2247) - increasing resumption interval to 2277
+2246.795 (0) Dropbox chunked upload: 28 % uploaded (AAAAAAAAABtIITzLQDdAjw, 34603008, 1024 KB)
+2288.647 (0) The time we have been running (2288.6) is approaching the resumption interval (2277) - increasing resumption interval to 2319
+2288.651 (0) Dropbox chunked upload: 28.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 35651584, 1024 KB)
+2315.196 (0) The time we have been running (2315.2) is approaching the resumption interval (2319) - increasing resumption interval to 2346
+2315.199 (0) Dropbox chunked upload: 29.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 36700160, 1024 KB)
+2350.530 (0) The time we have been running (2350.5) is approaching the resumption interval (2346) - increasing resumption interval to 2381
+2350.533 (0) Dropbox chunked upload: 30.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 37748736, 1024 KB)
+2393.329 (0) The time we have been running (2393.3) is approaching the resumption interval (2381) - increasing resumption interval to 2424
+2393.332 (0) The scheduled resumption is within 45 seconds - will reschedule
+2393.336 (0) Rescheduling resumption 1: moving to 600 seconds from now (1527854126)
+2393.341 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 2424 + 45 = 2469
+2393.342 (0) Dropbox chunked upload: 31.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 38797312, 1024 KB)
+2424.446 (0) Dropbox chunked upload: 32.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 39845888, 1024 KB)
+2464.959 (0) The time we have been running (2465) is approaching the resumption interval (2469) - increasing resumption interval to 2495
+2464.963 (0) Dropbox chunked upload: 33 % uploaded (AAAAAAAAABtIITzLQDdAjw, 40894464, 1024 KB)
+2497.341 (0) The time we have been running (2497.3) is approaching the resumption interval (2495) - increasing resumption interval to 2528
+2497.346 (0) Dropbox chunked upload: 33.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 41943040, 1024 KB)
+2536.174 (0) The time we have been running (2536.2) is approaching the resumption interval (2528) - increasing resumption interval to 2567
+2536.177 (0) Dropbox chunked upload: 34.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 42991616, 1024 KB)
+2566.128 (0) The time we have been running (2566.1) is approaching the resumption interval (2567) - increasing resumption interval to 2597
+2566.131 (0) Dropbox chunked upload: 35.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 44040192, 1024 KB)
+2618.217 (0) The time we have been running (2618.2) is approaching the resumption interval (2597) - increasing resumption interval to 2649
+2618.220 (0) Dropbox chunked upload: 36.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 45088768, 1024 KB)
+2664.788 (0) The time we have been running (2664.8) is approaching the resumption interval (2649) - increasing resumption interval to 2695
+2664.792 (0) Dropbox chunked upload: 37.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 46137344, 1024 KB)
+2697.810 (0) The time we have been running (2697.8) is approaching the resumption interval (2695) - increasing resumption interval to 2728
+2697.813 (0) Dropbox chunked upload: 38.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 47185920, 1024 KB)
+2734.657 (0) The time we have been running (2734.7) is approaching the resumption interval (2728) - increasing resumption interval to 2765
+2734.660 (0) Dropbox chunked upload: 39 % uploaded (AAAAAAAAABtIITzLQDdAjw, 48234496, 1024 KB)
+2789.066 (0) The time we have been running (2789.1) is approaching the resumption interval (2765) - increasing resumption interval to 2820
+2789.070 (0) Dropbox chunked upload: 39.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 49283072, 1024 KB)
+2833.826 (0) The time we have been running (2833.8) is approaching the resumption interval (2820) - increasing resumption interval to 2864
+2833.829 (0) Dropbox chunked upload: 40.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 50331648, 1024 KB)
+2858.890 (0) The time we have been running (2858.9) is approaching the resumption interval (2864) - increasing resumption interval to 2889
+2858.893 (0) Dropbox chunked upload: 41.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 51380224, 1024 KB)
+2879.862 (0) The time we have been running (2879.9) is approaching the resumption interval (2889) - increasing resumption interval to 2910
+2879.865 (0) Dropbox chunked upload: 42.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 52428800, 1024 KB)
+2904.355 (0) The time we have been running (2904.4) is approaching the resumption interval (2910) - increasing resumption interval to 2935
+2904.359 (0) Dropbox chunked upload: 43.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 53477376, 1024 KB)
+2935.905 (0) The time we have been running (2935.9) is approaching the resumption interval (2935) - increasing resumption interval to 2966
+2935.909 (0) Dropbox chunked upload: 44.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 54525952, 1024 KB)
+2958.728 (0) The time we have been running (2958.7) is approaching the resumption interval (2966) - increasing resumption interval to 2989
+2958.732 (0) The scheduled resumption is within 45 seconds - will reschedule
+2958.736 (0) Rescheduling resumption 1: moving to 600 seconds from now (1527854692)
+2958.741 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 2989 + 45 = 3034
+2958.742 (0) Dropbox chunked upload: 44.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 55574528, 1024 KB)
+2981.473 (0) Dropbox chunked upload: 45.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 56623104, 1024 KB)
+3021.271 (0) The time we have been running (3021.3) is approaching the resumption interval (3034) - increasing resumption interval to 3052
+3021.275 (0) Dropbox chunked upload: 46.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 57671680, 1024 KB)
+3050.740 (0) The time we have been running (3050.7) is approaching the resumption interval (3052) - increasing resumption interval to 3081
+3050.744 (0) Dropbox chunked upload: 47.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 58720256, 1024 KB)
+3073.678 (0) The time we have been running (3073.7) is approaching the resumption interval (3081) - increasing resumption interval to 3104
+3073.680 (0) Dropbox chunked upload: 48.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 59768832, 1024 KB)
+3097.137 (0) The time we have been running (3097.1) is approaching the resumption interval (3104) - increasing resumption interval to 3128
+3097.141 (0) Dropbox chunked upload: 49.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 60817408, 1024 KB)
+3125.130 (0) The time we have been running (3125.1) is approaching the resumption interval (3128) - increasing resumption interval to 3156
+3125.134 (0) Dropbox chunked upload: 50 % uploaded (AAAAAAAAABtIITzLQDdAjw, 61865984, 1024 KB)
+3150.437 (0) The time we have been running (3150.4) is approaching the resumption interval (3156) - increasing resumption interval to 3181
+3150.439 (0) Dropbox chunked upload: 50.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 62914560, 1024 KB)
+3168.283 (0) The time we have been running (3168.3) is approaching the resumption interval (3181) - increasing resumption interval to 3199
+3168.287 (0) Dropbox chunked upload: 51.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 63963136, 1024 KB)
+3193.965 (0) The time we have been running (3194) is approaching the resumption interval (3199) - increasing resumption interval to 3224
+3193.969 (0) Dropbox chunked upload: 52.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 65011712, 1024 KB)
+3219.009 (0) The time we have been running (3219) is approaching the resumption interval (3224) - increasing resumption interval to 3250
+3219.012 (0) Dropbox chunked upload: 53.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 66060288, 1024 KB)
+3247.906 (0) The time we have been running (3247.9) is approaching the resumption interval (3250) - increasing resumption interval to 3278
+3247.911 (0) Dropbox chunked upload: 54.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 67108864, 1024 KB)
+3268.976 (0) The time we have been running (3269) is approaching the resumption interval (3278) - increasing resumption interval to 3299
+3268.979 (0) Dropbox chunked upload: 55.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 68157440, 1024 KB)
+3292.391 (0) The time we have been running (3292.4) is approaching the resumption interval (3299) - increasing resumption interval to 3323
+3292.394 (0) Dropbox chunked upload: 55.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 69206016, 1024 KB)
+3316.501 (0) The time we have been running (3316.5) is approaching the resumption interval (3323) - increasing resumption interval to 3347
+3316.505 (0) Dropbox chunked upload: 56.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 70254592, 1024 KB)
+3341.433 (0) The time we have been running (3341.4) is approaching the resumption interval (3347) - increasing resumption interval to 3372
+3341.437 (0) Dropbox chunked upload: 57.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 71303168, 1024 KB)
+3366.180 (0) The time we have been running (3366.2) is approaching the resumption interval (3372) - increasing resumption interval to 3397
+3366.183 (0) Dropbox chunked upload: 58.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 72351744, 1024 KB)
+3389.377 (0) The time we have been running (3389.4) is approaching the resumption interval (3397) - increasing resumption interval to 3420
+3389.379 (0) Dropbox chunked upload: 59.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 73400320, 1024 KB)
+3412.493 (0) The time we have been running (3412.5) is approaching the resumption interval (3420) - increasing resumption interval to 3443
+3412.497 (0) Dropbox chunked upload: 60.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 74448896, 1024 KB)
+3435.521 (0) The time we have been running (3435.5) is approaching the resumption interval (3443) - increasing resumption interval to 3466
+3435.525 (0) Dropbox chunked upload: 61 % uploaded (AAAAAAAAABtIITzLQDdAjw, 75497472, 1024 KB)
+3488.194 (0) The time we have been running (3488.2) is approaching the resumption interval (3466) - increasing resumption interval to 3519
+3488.198 (0) Dropbox chunked upload: 61.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 76546048, 1024 KB)
+3521.424 (0) The time we have been running (3521.4) is approaching the resumption interval (3519) - increasing resumption interval to 3552
+3521.428 (0) The scheduled resumption is within 45 seconds - will reschedule
+3521.432 (0) Rescheduling resumption 1: moving to 600 seconds from now (1527855254)
+3521.438 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 3552 + 45 = 3597
+3521.439 (0) Dropbox chunked upload: 62.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 77594624, 1024 KB)
+3535.893 (0) Dropbox chunked upload: 63.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 78643200, 1024 KB)
+3554.983 (0) Dropbox chunked upload: 64.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 79691776, 1024 KB)
+3576.785 (0) The time we have been running (3576.8) is approaching the resumption interval (3597) - increasing resumption interval to 3607
+3576.788 (0) Dropbox chunked upload: 65.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 80740352, 1024 KB)
+3597.058 (0) The time we have been running (3597.1) is approaching the resumption interval (3607) - increasing resumption interval to 3628
+3597.062 (0) Dropbox chunked upload: 66.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 81788928, 1024 KB)
+3616.846 (0) The time we have been running (3616.8) is approaching the resumption interval (3628) - increasing resumption interval to 3647
+3616.849 (0) Dropbox chunked upload: 66.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 82837504, 1024 KB)
+3646.953 (0) The time we have been running (3646.9) is approaching the resumption interval (3647) - increasing resumption interval to 3677
+3646.957 (0) Dropbox chunked upload: 67.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 83886080, 1024 KB)
+3672.202 (0) The time we have been running (3672.2) is approaching the resumption interval (3677) - increasing resumption interval to 3703
+3672.206 (0) Dropbox chunked upload: 68.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 84934656, 1024 KB)
+3692.164 (0) The time we have been running (3692.2) is approaching the resumption interval (3703) - increasing resumption interval to 3723
+3692.167 (0) Dropbox chunked upload: 69.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 85983232, 1024 KB)
+3712.413 (0) The time we have been running (3712.4) is approaching the resumption interval (3723) - increasing resumption interval to 3743
+3712.416 (0) Dropbox chunked upload: 70.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 87031808, 1024 KB)
+3729.262 (0) The time we have been running (3729.3) is approaching the resumption interval (3743) - increasing resumption interval to 3760
+3729.265 (0) Dropbox chunked upload: 71.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 88080384, 1024 KB)
+3759.096 (0) The time we have been running (3759.1) is approaching the resumption interval (3760) - increasing resumption interval to 3790
+3759.099 (0) Dropbox chunked upload: 72 % uploaded (AAAAAAAAABtIITzLQDdAjw, 89128960, 1024 KB)
+3784.037 (0) The time we have been running (3784) is approaching the resumption interval (3790) - increasing resumption interval to 3815
+3784.040 (0) Dropbox chunked upload: 72.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 90177536, 1024 KB)
+3815.203 (0) The time we have been running (3815.2) is approaching the resumption interval (3815) - increasing resumption interval to 3846
+3815.206 (0) Dropbox chunked upload: 73.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 91226112, 1024 KB)
+3842.179 (0) The time we have been running (3842.2) is approaching the resumption interval (3846) - increasing resumption interval to 3873
+3842.182 (0) Dropbox chunked upload: 74.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 92274688, 1024 KB)
+3871.091 (0) The time we have been running (3871.1) is approaching the resumption interval (3873) - increasing resumption interval to 3902
+3871.095 (0) Dropbox chunked upload: 75.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 93323264, 1024 KB)
+3895.487 (0) The time we have been running (3895.5) is approaching the resumption interval (3902) - increasing resumption interval to 3926
+3895.491 (0) Dropbox chunked upload: 76.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 94371840, 1024 KB)
+3937.859 (0) The time we have been running (3937.9) is approaching the resumption interval (3926) - increasing resumption interval to 3968
+3937.862 (0) Dropbox chunked upload: 77.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 95420416, 1024 KB)
+3970.465 (0) The time we have been running (3970.5) is approaching the resumption interval (3968) - increasing resumption interval to 4001
+3970.470 (0) Dropbox chunked upload: 77.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 96468992, 1024 KB)
+4001.006 (0) The time we have been running (4001) is approaching the resumption interval (4001) - increasing resumption interval to 4032
+4001.009 (0) Dropbox chunked upload: 78.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 97517568, 1024 KB)
+4027.810 (0) The time we have been running (4027.8) is approaching the resumption interval (4032) - increasing resumption interval to 4058
+4027.814 (0) Dropbox chunked upload: 79.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 98566144, 1024 KB)
+4058.654 (0) The time we have been running (4058.6) is approaching the resumption interval (4058) - increasing resumption interval to 4089
+4058.657 (0) Dropbox chunked upload: 80.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 99614720, 1024 KB)
+4091.370 (0) The time we have been running (4091.4) is approaching the resumption interval (4089) - increasing resumption interval to 4122
+4091.374 (0) The scheduled resumption is within 45 seconds - will reschedule
+4091.377 (0) Rescheduling resumption 1: moving to 600 seconds from now (1527855824)
+4091.382 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 4122 + 45 = 4167
+4091.383 (0) Dropbox chunked upload: 81.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 100663296, 1024 KB)
+4113.596 (0) Dropbox chunked upload: 82.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 101711872, 1024 KB)
+4132.553 (0) Dropbox chunked upload: 83 % uploaded (AAAAAAAAABtIITzLQDdAjw, 102760448, 1024 KB)
+4152.541 (0) The time we have been running (4152.5) is approaching the resumption interval (4167) - increasing resumption interval to 4183
+4152.545 (0) Dropbox chunked upload: 83.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 103809024, 1024 KB)
+4179.040 (0) The time we have been running (4179) is approaching the resumption interval (4183) - increasing resumption interval to 4210
+4179.043 (0) Dropbox chunked upload: 84.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 104857600, 1024 KB)
+4199.159 (0) The time we have been running (4199.2) is approaching the resumption interval (4210) - increasing resumption interval to 4230
+4199.163 (0) Dropbox chunked upload: 85.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 105906176, 1024 KB)
+4216.182 (0) The time we have been running (4216.2) is approaching the resumption interval (4230) - increasing resumption interval to 4247
+4216.187 (0) Dropbox chunked upload: 86.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 106954752, 1024 KB)
+4240.490 (0) The time we have been running (4240.5) is approaching the resumption interval (4247) - increasing resumption interval to 4271
+4240.492 (0) Dropbox chunked upload: 87.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 108003328, 1024 KB)
+4262.836 (0) The time we have been running (4262.8) is approaching the resumption interval (4271) - increasing resumption interval to 4293
+4262.839 (0) Dropbox chunked upload: 88.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 109051904, 1024 KB)
+4282.411 (0) The time we have been running (4282.4) is approaching the resumption interval (4293) - increasing resumption interval to 4313
+4282.414 (0) Dropbox chunked upload: 89 % uploaded (AAAAAAAAABtIITzLQDdAjw, 110100480, 1024 KB)
+4302.075 (0) The time we have been running (4302.1) is approaching the resumption interval (4313) - increasing resumption interval to 4333
+4302.079 (0) Dropbox chunked upload: 89.8 % uploaded (AAAAAAAAABtIITzLQDdAjw, 111149056, 1024 KB)
+4321.780 (0) The time we have been running (4321.8) is approaching the resumption interval (4333) - increasing resumption interval to 4352
+4321.784 (0) Dropbox chunked upload: 90.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 112197632, 1024 KB)
+4341.071 (0) The time we have been running (4341.1) is approaching the resumption interval (4352) - increasing resumption interval to 4372
+4341.075 (0) Dropbox chunked upload: 91.5 % uploaded (AAAAAAAAABtIITzLQDdAjw, 113246208, 1024 KB)
+4361.076 (0) The time we have been running (4361.1) is approaching the resumption interval (4372) - increasing resumption interval to 4392
+4361.080 (0) Dropbox chunked upload: 92.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 114294784, 1024 KB)
+4378.371 (0) The time we have been running (4378.4) is approaching the resumption interval (4392) - increasing resumption interval to 4409
+4378.375 (0) Dropbox chunked upload: 93.2 % uploaded (AAAAAAAAABtIITzLQDdAjw, 115343360, 1024 KB)
+4393.756 (0) The time we have been running (4393.8) is approaching the resumption interval (4409) - increasing resumption interval to 4424
+4393.760 (0) Dropbox chunked upload: 94 % uploaded (AAAAAAAAABtIITzLQDdAjw, 116391936, 1024 KB)
+4411.512 (0) The time we have been running (4411.5) is approaching the resumption interval (4424) - increasing resumption interval to 4442
+4411.515 (0) Dropbox chunked upload: 94.9 % uploaded (AAAAAAAAABtIITzLQDdAjw, 117440512, 1024 KB)
+4426.988 (0) The time we have been running (4427) is approaching the resumption interval (4442) - increasing resumption interval to 4457
+4426.991 (0) Dropbox chunked upload: 95.7 % uploaded (AAAAAAAAABtIITzLQDdAjw, 118489088, 1024 KB)
+4446.938 (0) The time we have been running (4446.9) is approaching the resumption interval (4457) - increasing resumption interval to 4477
+4446.942 (0) Dropbox chunked upload: 96.6 % uploaded (AAAAAAAAABtIITzLQDdAjw, 119537664, 1024 KB)
+4462.135 (0) The time we have been running (4462.1) is approaching the resumption interval (4477) - increasing resumption interval to 4493
+4462.139 (0) Dropbox chunked upload: 97.4 % uploaded (AAAAAAAAABtIITzLQDdAjw, 120586240, 1024 KB)
+4477.514 (0) The time we have been running (4477.5) is approaching the resumption interval (4493) - increasing resumption interval to 4508
+4477.517 (0) Dropbox chunked upload: 98.3 % uploaded (AAAAAAAAABtIITzLQDdAjw, 121634816, 1024 KB)
+4493.593 (0) The time we have been running (4493.6) is approaching the resumption interval (4508) - increasing resumption interval to 4524
+4493.596 (0) Dropbox chunked upload: 99.1 % uploaded (AAAAAAAAABtIITzLQDdAjw, 122683392, 1024 KB)
+4508.859 (0) The time we have been running (4508.9) is approaching the resumption interval (4524) - increasing resumption interval to 4539
+4508.862 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABtIITzLQDdAjw, 123731968, 1024 KB)
+4511.484 (0) The time we have been running (4511.5) is approaching the resumption interval (4539) - increasing resumption interval to 4542
+4511.487 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABtIITzLQDdAjw, 123775662, 1024 KB)
+4513.629 (0) Recording as successfully uploaded: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip (d9a463d2503cf160acc89e4afaa514e0)
+4513.648 (0) Deleting local file: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip: OK
+4513.649 (0) Dropbox: File upload success (backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-uploads.zip): 120874 KB in 3455s (34 KB/s)
+4514.425 (0) Dropbox quota usage: used=444.6 MB, total=2048 MB, available=1603.4 MB
+4514.426 (0) Dropbox: Attempt to upload: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip to: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip
+4515.413 (0) The time we have been running (4515.4) is approaching the resumption interval (4542) - increasing resumption interval to 4546
+4515.417 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAACEL20uy0bbLSg, 3066, 1024 KB)
+4517.356 (0) Recording as successfully uploaded: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip (91289df5a5e0223b196d44f04804e505)
+4517.363 (0) Deleting local file: backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip: OK
+4517.364 (0) Dropbox: File upload success (backup_2018-06-01-1105_localhost_adithi_test_a58017e689d3-others.zip): 2 KB in 2s (1 KB/s)
+4517.372 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=7
+4517.374 (0) Number of backup sets in history: 9; groups (db): 1
+4517.375 (0) Examining (for databases) backup set with group_id=0, nonce=79fca2d32911, datestamp=1527855059 (Jun 01 2018 12:10:59)
+4517.377 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.378 (0) Examining (for databases) backup set with group_id=0, nonce=844149c20e7d, datestamp=1527854103 (Jun 01 2018 11:55:03)
+4517.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=1da8f711191e, datestamp=1527853353 (Jun 01 2018 11:42:33)
+4517.379 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=5f9a7a5453a5, datestamp=1527852362 (Jun 01 2018 11:26:02)
+4517.379 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=adc8938d52b5, datestamp=1527851643 (Jun 01 2018 11:14:03)
+4517.379 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=a58017e689d3, datestamp=1527851133 (Jun 01 2018 11:05:33)
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=dcb748219f3d, datestamp=1527850893 (Jun 01 2018 11:01:33)
+4517.379 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=8507bccf9989, datestamp=1527850436 (Jun 01 2018 10:53:56)
+4517.379 (0) Examining (for databases) backup set with group_id=0, nonce=19cf69fe9282, datestamp=1527850075 (Jun 01 2018 10:47:55)
+4517.379 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.379 (0) Number of backup sets in history: 9; groups (files): 1
+4517.381 (0) Examining (for files) backup set with nonce=79fca2d32911, datestamp=1527855059 (Jun 01 2018 12:10:59)
+4517.381 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.382 (0) Examining (for files) backup set with nonce=844149c20e7d, datestamp=1527854103 (Jun 01 2018 11:55:03)
+4517.382 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.382 (0) Examining (for files) backup set with nonce=1da8f711191e, datestamp=1527853353 (Jun 01 2018 11:42:33)
+4517.382 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.382 (0) Examining (for files) backup set with nonce=5f9a7a5453a5, datestamp=1527852362 (Jun 01 2018 11:26:02)
+4517.382 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.382 (0) Examining (for files) backup set with nonce=adc8938d52b5, datestamp=1527851643 (Jun 01 2018 11:14:03)
+4517.382 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.382 (0) Examining (for files) backup set with nonce=a58017e689d3, datestamp=1527851133 (Jun 01 2018 11:05:33)
+4517.382 (0) This backup set is the backup set just made, so will not be deleted.
+4517.383 (0) This backup set is the backup set just made, so will not be deleted.
+4517.383 (0) This backup set is the backup set just made, so will not be deleted.
+4517.384 (0) This backup set is the backup set just made, so will not be deleted.
+4517.384 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+4517.385 (0) Examining (for files) backup set with nonce=dcb748219f3d, datestamp=1527850893 (Jun 01 2018 11:01:33)
+4517.385 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.386 (0) Examining (for files) backup set with nonce=8507bccf9989, datestamp=1527850436 (Jun 01 2018 10:53:56)
+4517.386 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+4517.388 (0) Examining (for files) backup set with nonce=19cf69fe9282, datestamp=1527850075 (Jun 01 2018 10:47:55)
+4517.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+4517.389 (0) Retain: saving new backup history (sets now: 9) and finishing retain operation
+4517.393 (0) Resume backup (a58017e689d3, 0): finish run
+4517.404 (0) Decremented the semaphore (f) by 1
+4517.405 (0) Semaphore (f, wp_options) still locked (0)
+4517.406 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+4517.411 (0) No email will/can be sent - the user has not configured an email address.
+4517.412 (0) The backup apparently succeeded and is now complete

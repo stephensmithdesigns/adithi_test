@@ -1,0 +1,37 @@
+0038.758 (1) Opened log file at time: Fri, 01 Jun 2018 11:55:42 +0000 on http://localhost:8888/adithi_test
+0038.760 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.9M | 18.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0038.762 (1) Free space on disk containing Updraft's temporary directory: 41778.8 MB
+0038.765 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1527854142.3, time_now=1527854142.3, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0038.767 (1) Rescheduling resumption 2: moving to 420 seconds from now (1527854562)
+0038.771 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0390.056 (1) Opened log file at time: Fri, 01 Jun 2018 12:01:33 +0000 on http://localhost:8888/adithi_test
+0390.059 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0390.062 (1) Free space on disk containing Updraft's temporary directory: 41775.5 MB
+0390.069 (1) Backup run: resumption=1, nonce=a930a185b88e, begun at=1527854103 (390s ago), job type=backup, previous check-in=38.7s
+0390.070 (1) Terminate: This backup job is already finished (1).
+0565.756 (1) Opened log file at time: Fri, 01 Jun 2018 12:04:29 +0000 on http://localhost:8888/adithi_test
+0565.757 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0565.758 (1) Free space on disk containing Updraft's temporary directory: 41764.4 MB
+0565.762 (1) Backup run: resumption=1, nonce=a930a185b88e, begun at=1527854103 (566s ago), job type=backup, previous check-in=38.7s
+0565.763 (1) Terminate: This backup job is already finished (1).
+0024.953 (1) Opened log file at time: Fri, 01 Jun 2018 12:11:24 +0000 on http://localhost:8888/adithi_test
+0024.954 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.9M | 16.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0024.955 (1) Free space on disk containing Updraft's temporary directory: 41764.9 MB
+0024.959 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1527855084.2, time_now=1527855084.2, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0024.960 (1) Rescheduling resumption 2: moving to 420 seconds from now (1527855504)
+0024.964 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0180.081 (1) Opened log file at time: Fri, 01 Jun 2018 12:13:59 +0000 on http://localhost:8888/adithi_test
+0180.083 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0180.084 (1) Free space on disk containing Updraft's temporary directory: 41742.1 MB
+0180.087 (1) Backup run: resumption=1, nonce=a930a185b88e, begun at=1527855059 (180s ago), job type=backup, previous check-in=24.9s
+0180.088 (1) Terminate: This backup job is already finished (1).
+0244.276 (1) Opened log file at time: Fri, 01 Jun 2018 12:15:03 +0000 on http://localhost:8888/adithi_test
+0244.277 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0244.278 (1) Free space on disk containing Updraft's temporary directory: 41844 MB
+0244.280 (1) Backup run: resumption=1, nonce=a930a185b88e, begun at=1527855059 (244s ago), job type=backup, previous check-in=24.9s
+0244.281 (1) Terminate: This backup job is already finished (1).
+0600.051 (1) Opened log file at time: Fri, 01 Jun 2018 12:20:59 +0000 on http://localhost:8888/adithi_test
+0600.053 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.1 (apache2handler, Darwin Stephens-MBP 17.5.0 Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.1 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 4.3M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0600.055 (1) Free space on disk containing Updraft's temporary directory: 41338.1 MB
+0600.057 (1) Backup run: resumption=1, nonce=a930a185b88e, begun at=1527855059 (600s ago), job type=backup, previous check-in=24.9s
+0600.058 (1) Terminate: This backup job is already finished (1).

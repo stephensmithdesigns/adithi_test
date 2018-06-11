@@ -1,0 +1,308 @@
+/**
+Theme Name: astra_child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra_child
+Template: astra
+*/
+/* ////////////////////////////////////////// -_-
+COlORS
+/////////////////////////////////////////////*/
+
+@white: #ffffff;
+@green: #c3c64b;
+@grey: #707274;
+@yellow: #f5bf3f;
+@orange: #ff6a3a;
+@palegreen: #adbaaa;
+@black: #000000;
+@blue: blue;
+
+
+/* ////////////////////////////////////////// -_-
+TYPOGRAPHY
+/////////////////////////////////////////////*/
+
+.h1 {font-size:33px;}
+.h2 {font-size:33px;}
+.h3 {font-size:33px;}
+
+
+#home_header_text h1 {
+  .h1;
+}
+
+a, .page-title {
+  color: @palegreen;
+  font-weight:800;
+
+  &:hover {
+    color: @grey;
+  }
+}
+
+.ast-page-builder-template .entry-header {
+  padding:0;
+}
+
+.entry-content h1, .bottom_text {
+  .h1;
+  color:@white;
+  margin-bottom:0;
+}
+
+.bottom_text {
+  text-align:center;
+}
+
+div#text_oncolor {
+  color: @white;
+  font-weight: 400;
+  letter-spacing: .01em;
+  font-size: 21px;
+  line-height: 1.4em;
+}
+
+.description {
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing: .05em;
+    font-size: 16px;
+    color: @grey;
+}
+
+/* ////////////////////////////////////////// -_-
+Buttons
+/////////////////////////////////////////////*/
+
+#button_onwhite a, .form_colorbg a
+
+ {
+   text-transform:uppercase;
+   border:2px solid @white;
+   letter-spacing:.1em;
+   font-weight:900;
+
+   &:hover {
+     border:2px solid;
+   }
+ }
+
+ #button_oncolor a {
+   border:2px solid @white;
+   text-transform:uppercase;
+ }
+
+/* ////////////////////////////////////////// -_-
+HEADER
+/////////////////////////////////////////////*/
+
+.main-navigation ul > li {
+padding:0 15px;
+
+&:hover {
+  color:#707274;
+}
+}
+
+.main-navigation ul > li > a {
+  font-family: 'Raleway', sans-serif;
+  color:@grey;
+  text-transform:uppercase;
+  letter-spacing: .1em;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+  padding:0;
+  line-height:2.5em;
+
+  &:hover {
+      color:@grey;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: @grey;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  &:focus {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.main-header-menu li:hover > a,
+.main-header-menu li:hover > .ast-menu-toggle,
+.main-header-menu .ast-masthead-custom-menu-items a:hover,
+.main-header-menu li.focus > a,
+.main-header-menu li.focus > .ast-menu-toggle,
+.main-header-menu .current-menu-item > a,
+.main-header-menu .current-menu-ancestor > a,
+.main-header-menu .current_page_item > a,
+.main-header-menu .current-menu-item > .ast-menu-toggle,
+.main-header-menu .current-menu-ancestor > .ast-menu-toggle,
+.main-header-menu .current_page_item > .ast-menu-toggle  {
+color:@grey;
+}
+
+div#mobile_arrow {
+  width:85px;
+  margin:0 auto;
+}
+
+.big_white_line, .small_white_line {
+  width:50px;
+  margin:0 auto;
+}
+
+.squigle_thin img {
+  width:10px;
+}
+
+.menu-toggle, button, .ast-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+  background-color: @grey;
+}
+
+.ast-header-break-point .main-navigation ul li a {
+  text-align:center;
+}
+
+/* ////////////////////////////////////////// -_-
+MAIN CONTENT
+/////////////////////////////////////////////*/
+
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  position: relative;
+  width: 23%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.fl-photo-caption-hover {
+  background: #707274;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  opacity: 0;
+  // filter: alpha(opacity = 0);
+  padding: 10px 15px;
+  display:none;
+  position: absolute;
+  right: 0;
+  font-size:25px;
+  height:100%;
+  align-items:center;
+  justify-content:center;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  font-weight:bold;
+  pointer-events:none;
+}
+
+#aztecalogo_singleportfolio img, #prebeef_singleportfolio img {
+  width:400px;
+  float:left;
+}
+
+div.desc {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+  &:hover {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.gallery:hover .overlay {
+  opacity: .97;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: @yellow;
+}
+
+
+/* ////////////////////////////////////////// -_-
+Single Project Page
+/////////////////////////////////////////////*/
+
+
+.stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.single_gallery img {
+      box-shadow: 0px 0px 17px #0000001f;
+}
+
+
+/* ////////////////////////////////////////// -_-
+Contact Page
+/////////////////////////////////////////////*/
+
+
+
+/* ////////////////////////////////////////// -_-
+FOOTER
+/////////////////////////////////////////////*/
+
+
+li.social-icon a {
+  font-size:12px;
+}
+
+.ast-small-footer {
+  border:none;
+}
