@@ -319,4 +319,8 @@ li.social-icon a {
   #about_padding_fix {
     padding-top:0px;
   }
+
+  .main-navigation ul > li > a {
+    line-height:0em;
+  }
 }
